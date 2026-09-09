@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /demos/
+Disallow: /ops/
+
+Sitemap: https://operationsguy.netlify.app/sitemap.xml

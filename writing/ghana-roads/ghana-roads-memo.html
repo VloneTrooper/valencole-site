@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<title>Compliance Without Preservation — full memo</title>
+<meta name="description" content="Why Ghana&#x27;s road maintenance funds keep failing, and the four changes that would matter most">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,700;1,8..60,400&display=swap" rel="stylesheet">
+<style>
+:root{--paper:#EEEFEA;--ink:#22262A;--ink-2:#4A5056;--rule:#C9CBC3;--yellow:#F2C230;--laterite:#9C3D1F;--concrete:#D9D8D0;--link:#1F4B6E}
+*{box-sizing:border-box}
+.memo{font-family:"Source Serif 4", Charter, Georgia, serif;color:var(--ink);line-height:1.6;font-size:1.0625rem}
+.memo h1,.memo h2,.memo h3,.memo h4,.memo .byline,.memo table,.memo summary .hint,.memo .toc{font-family:"Overpass", "Helvetica Neue", Arial, sans-serif}
+.memo h1{font-size:2.6rem;line-height:1.05;font-weight:700;letter-spacing:-.015em;margin:0 0 .35rem}
+.memo .subtitle{font-size:1.3rem;line-height:1.3;color:var(--ink-2);font-weight:400;margin:0 0 1.2rem;max-width:34em}
+.memo .byline{font-size:.95rem;color:var(--ink-2);margin:0 0 2.2rem;padding-bottom:1rem;border-bottom:3px solid var(--ink)}
+.memo .byline span+span::before{content:"";display:inline-block;width:1.2em}
+.memo h2{font-size:1.55rem;line-height:1.2;margin:3rem 0 1rem;padding-top:1.2rem;border-top:1px solid var(--rule);font-weight:700}
+.memo h3{font-size:1.15rem;margin:2rem 0 .6rem;font-weight:700}
+.memo p{margin:0 0 1.05rem;max-width:70ch}
+.memo blockquote{margin:0 0 1.6rem;padding:1rem 1.2rem 1rem 1.4rem;border-left:6px solid var(--yellow);background:#fff;font-size:1rem}
+.memo blockquote p{margin:0;max-width:none}
+.memo>blockquote:first-of-type{max-width:72ch}
+.memo hr{border:0;height:0;margin:0}
+.memo ol,.memo ul{padding-left:1.4rem;max-width:70ch}
+.memo li{margin:0 0 .5rem}
+.memo table{border-collapse:collapse;width:100%;max-width:48rem;margin:1.2rem 0 1.6rem;font-size:.92rem;line-height:1.35}
+.memo th,.memo td{padding:.5rem .7rem;border-bottom:1px solid var(--rule);text-align:left;vertical-align:top}
+.memo th{border-bottom:2px solid var(--ink);font-weight:700}
+.memo td[align=right],.memo th[align=right]{text-align:right;font-variant-numeric:tabular-nums}
+.memo tbody tr:last-child td{border-bottom:2px solid var(--ink)}
+.memo strong{font-weight:700}
+.memo a{color:var(--link);text-decoration-thickness:1px;text-underline-offset:2px}
+.memo sup{line-height:0}
+.memo .footnote-ref{font-family:"Overpass", "Helvetica Neue", Arial, sans-serif;font-size:.72em;text-decoration:none;color:var(--laterite);font-weight:700;padding:0 .08em}
+.memo .footnote{font-size:.9rem;color:var(--ink-2);margin-top:1rem}
+.memo .footnote hr{display:none}
+.memo .footnote ol{padding-left:1.6rem;max-width:none}
+.memo .footnote li{margin-bottom:.6rem;word-break:break-word}
+.memo .footnote li p{max-width:none;margin:0;display:inline}
+.memo .footnote-backref{font-family:"Overpass", "Helvetica Neue", Arial, sans-serif;text-decoration:none;margin-left:.3em}
+.memo .annex-body p em:first-child{color:var(--ink-2)}
+
+html{background:var(--paper)}
+body{margin:0;background:var(--paper)}
+.wrap{max-width:1140px;margin:0 auto;padding:2rem 1.25rem 5rem}
+.topbar{display:flex;gap:1.5rem;align-items:baseline;justify-content:space-between;flex-wrap:wrap;margin-bottom:2.5rem;font-family:"Overpass",sans-serif;font-size:.95rem}
+.topbar a{color:var(--ink);text-decoration:none;border-bottom:2px solid var(--yellow);padding-bottom:1px}
+.topbar .actions{display:flex;gap:.6rem;flex-wrap:wrap}
+.btn{display:inline-block;padding:.55rem .95rem;border:2px solid var(--ink);color:var(--ink);text-decoration:none;font-weight:700;background:transparent;line-height:1}
+.btn.primary{background:var(--ink);color:var(--paper)}
+.btn.primary:hover{background:#000}
+.btn:hover{background:#fff}
+.topbar .actions .btn{border-bottom-color:var(--ink)} .topbar .actions .btn.primary{border-bottom-color:var(--ink)}
+.layout{display:grid;grid-template-columns:minmax(0,1fr);gap:2rem}
+@media(min-width:960px){.layout{grid-template-columns:220px minmax(0,1fr)}}
+.toc{position:sticky;top:1.5rem;align-self:start;font-size:.9rem;line-height:1.4;display:none}
+@media(min-width:960px){.toc{display:block}}
+.toc ol{list-style:none;padding:0;margin:0;border-left:2px solid var(--rule)}
+.toc li a{display:block;padding:.35rem 0 .35rem .8rem;color:var(--ink-2);text-decoration:none;border-left:2px solid transparent;margin-left:-2px}
+.toc li a:hover,.toc li a.active{color:var(--ink);border-left-color:var(--yellow)}
+.toc .dl{margin-top:1.4rem;padding-left:.8rem}
+.toc .dl a{color:var(--ink-2);text-decoration:underline;text-decoration-color:var(--yellow);text-decoration-thickness:2px;text-underline-offset:3px}
+details.annex summary{cursor:pointer;list-style:none;display:flex;align-items:baseline;gap:1rem;flex-wrap:wrap}
+details.annex summary::-webkit-details-marker{display:none}
+details.annex summary h2{margin-bottom:1rem}
+details.annex summary .hint{font-size:.9rem;color:var(--ink-2);border:1px solid var(--rule);padding:.25rem .6rem;background:#fff}
+details.annex[open] summary .hint::after{content:" (hide)"}
+/* footnote popover */
+.fnpop{position:absolute;z-index:20;max-width:26rem;background:#fff;border:2px solid var(--ink);padding:.8rem .95rem;font-size:.88rem;line-height:1.45;color:var(--ink);box-shadow:none;font-family:"Source Serif 4",Charter,Georgia,serif}
+.fnpop .n{font-family:"Overpass",sans-serif;font-weight:700;color:var(--laterite);margin-right:.4em}
+.fnpop a{word-break:break-all}
+:focus-visible{outline:3px solid var(--yellow);outline-offset:2px}
+@media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;transition:none!important}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <nav class="topbar" aria-label="Page">
+    <a href="./">Back to the overview</a>
+    <div class="actions">
+      <a class="btn primary" href="compliance-without-preservation.pdf" download>Download the PDF</a>
+    </div>
+  </nav>
+  <div class="layout">
+    <aside class="toc" aria-label="Contents">
+      <ol><li><a href="#1-the-backlog">1. The backlog</a></li>
+<li><a href="#2-the-financing-mechanism">2. The financing mechanism</a></li>
+<li><a href="#3-what-it-would-cost">3. What it would cost</a></li>
+<li><a href="#4-recommendations">4. Recommendations</a></li>
+<li><a href="#5-what-this-does-not-address">5. What this does not address</a></li>
+<li><a href="#6-conclusion">6. Conclusion</a></li>
+<li><a href="#limitations">Limitations</a></li>
+<li><a href="#annex-the-precedent">Annex: the precedent</a></li></ol>
+      <div class="dl"><a href="compliance-without-preservation.pdf" download>PDF version</a></div>
+    </aside>
+    <article class="memo">
+      <h1>Compliance Without Preservation</h1>
+      <p class="subtitle">Why Ghana&#x27;s road maintenance funds keep failing, and the four changes that would matter most</p>
+      <p class="byline"><span>Valen Cole</span><span>September 4, 2026</span><span>operationsguy.netlify.app</span></p>
+      <blockquote>
+<p><strong>Abstract.</strong> Ghana has created a dedicated road maintenance fund twice — in 1997, and again in 2025. Neither has arrested the deterioration of the network. The binding constraint is not the absence of ring-fenced financing but the way the financing statutes are drafted: the maintenance floor pools preservation with repair, the arrears duty carries no deadline, the performance-contracting mandate carries no target, and the levy has no mechanism for adjusting itself. Each instrument can be complied with in full while the network gets worse. In 2025 the Ministry of Roads and Highways budgeted 45.3% of its appropriation to new construction and 3.78% to routine and periodic maintenance combined. This memo traces the mechanism from primary sources and proposes four changes, ordered by what each requires to work.</p>
+</blockquote>
+<p><strong>A note on currency.</strong> Figures are in Ghana cedis (GH¢) throughout. The memo&rsquo;s central argument concerns the erosion of a nominal cedi amount, so converting to dollars would obscure the mechanism it describes. Pre-2007 figures are in old cedis (¢) and are marked as such; Ghana redenominated in July 2007 at 10,000:1.</p>
+<hr />
+<h2 id="1-the-backlog">1. The backlog</h2>
+<p>Ghana&rsquo;s classified road network is 94,203 km: 14,948 km trunk, 28,480 km urban, and 50,775 km feeder.<sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup> The Ministry of Roads and Highways reports network condition as a good / fair / poor mix, and its own figures show 47% good in 2023 and 47% in 2024, against a 2025 target of 48% rising to 60% by 2027.<sup id="fnref:2"><a class="footnote-ref" href="#fn:2">2</a></sup> The Minister for Roads and Highways reported 44% of validated roads in good condition at the close of 2025 — below the 2023 baseline and short of the target.<sup id="fnref:3"><a class="footnote-ref" href="#fn:3">3</a></sup></p>
+<p>Against a sector policy objective of 70% good / 20% fair / 10% poor,<sup id="fnref:4"><a class="footnote-ref" href="#fn:4">4</a></sup> roughly a fifth of the network has sat in poor condition for the better part of a decade. On 94,203 km, a 22% poor share is approximately <strong>20,725 km requiring rehabilitation or reconstruction</strong>, not routine care.</p>
+<h3>1.1 What these figures can and cannot support</h3>
+<p>Four qualifications, stated here so the rest of the memo can rely on them.</p>
+<p><strong>They are self-reported.</strong> The condition series is the Ministry&rsquo;s assessment of its own performance. This memo uses it anyway, because it is the only network-wide series that exists and because the argument runs in the direction where the bias helps: if the Ministry&rsquo;s own assessment shows a fifth of the network in poor condition against 3.78% of appropriation going to preservation, that is not a contested figure but an admission.</p>
+<p><strong>They are length-weighted, not traffic-weighted.</strong> Feeder roads are 50,775 km — 54% of the network — and carry a small fraction of traffic. Condition thresholds are also class-relative: a gravel feeder road assessed as good is good <em>for a gravel feeder road</em>. The aggregate therefore understates the condition experienced by the average road user.</p>
+<p><strong>The network figure is stale.</strong> In September 2024 the then-Minister stated that a national road network inventory and condition survey was underway and that preliminary figures projected the network at roughly 100,000 km on completion, naming several completed corridors not yet captured in the data.<sup id="fnref:5"><a class="footnote-ref" href="#fn:5">5</a></sup> The 2025 estimates still carry 94,203 km, unchanged across all six forecast years, and the same figure appears in the 2023 MTEF. At least two incompatible condition series circulate against that same denominator.<sup id="fnref:6"><a class="footnote-ref" href="#fn:6">6</a></sup></p>
+<p><strong>The methodology is not public.</strong> Act 1147 makes the Road Condition Index the first factor in the allocation formula and defines it as a composite measure determined by operational guidelines issued under the Act — so the measurement standard sits outside the statute.<sup id="fnref:7"><a class="footnote-ref" href="#fn:7">7</a></sup> The Act also makes it an offence to manipulate or fabricate road condition survey results, carrying the same penalty band as misappropriating money from the Fund.<sup id="fnref:8"><a class="footnote-ref" href="#fn:8">8</a></sup> That is not evidence of falsification. It indicates the drafters regarded the survey as a control point rather than a neutral input.</p>
+<p>None of this weakens the argument below, because the argument turns on the <em>ratio</em> between measured condition and preservation spending, which survives considerable error in either figure.</p>
+<h3>1.2 Field observations</h3>
+<p>Two observations from travel in Ghana in June, 2026.</p>
+<p>The journey from Kpong to Elmina — approximately 245 km, taking a northern route via Akropong, Aburi and Nsawam specifically to avoid construction-related congestion on the direct corridor — took over nine hours on roads that avoided metropolitan traffic almost entirely. Traffic routinely crossed into oncoming lanes to pass ditches and potholes that could not be driven through.</p>
+<p>Separately, reaching communities in Asuogyaman District, Eastern Region — where the Volta Lake divides the district in two, and where the district assembly&rsquo;s own budget records that the bad condition of roads negatively affects transportation<sup id="fnref:9"><a class="footnote-ref" href="#fn:9">9</a></sup> — took two hours from Kpong to cover under twenty kilometres of separation. The health outreach I was travelling with existed on the premise that this difficulty deterred people from seeking treatment. The clinic at Kpong was the most capable facility we saw; the outposts further out held little beyond basic supplies. Excursions were ended at the first rain, because the return could not be relied on afterwards.</p>
+<p>Asuogyaman records roughly 185.9 km of district road network, of which 130.2 km is tarred and 55.7 km untarred.<sup id="fnref2:9"><a class="footnote-ref" href="#fn:9">9</a></sup> At 30% untarred it is better provisioned than the national average of 73%.<sup id="fnref:47"><a class="footnote-ref" href="#fn:47">47</a></sup></p>
+<hr />
+<h2 id="2-the-financing-mechanism">2. The financing mechanism</h2>
+<h3>2.1 Two funds in forty years</h3>
+<p>Network expansion under the Economic Recovery Programme of the 1980s put maintenance and rehabilitation costs beyond the reach of the Ministry&rsquo;s annual budgetary provisions. The Road Fund was established by legislative instrument in 1985 and restructured under the <strong>Road Fund Act, 1997 (Act 536)</strong> specifically to address that gap and to end reliance on budgetary allocation for maintenance.<sup id="fnref:10"><a class="footnote-ref" href="#fn:10">10</a></sup></p>
+<p>In August 2025 the <strong>Road Maintenance Trust Fund Act, 2025 (Act 1147)</strong> repealed Act 536 outright and established the Road Maintenance Trust Fund as a body corporate.<sup id="fnref:11"><a class="footnote-ref" href="#fn:11">11</a></sup> The stated rationale was governance. The Act introduced offences for misappropriation, a formula-based allocation system, mandatory technical audits, and a fifteen-member Board of Trustees inaugurated in December 2025.</p>
+<p>The reform is real. It is also aimed at a different constraint from the one that binds.</p>
+<p><strong>The Board is not independent of the Minister.</strong> Of the Board&rsquo;s members, only three are nominated by bodies outside government — the Association of Road Contractors, the Ghana Institution of Engineering, and the Ghana Institution of Surveyors. The road user and the civil society representative are both nominated by the Minister. Quorum is eight and the chairperson holds a casting vote.<sup id="fnref:12"><a class="footnote-ref" href="#fn:12">12</a></sup> Decisively, section 12 provides that the Minister may give written policy directives on matters of policy and that the Board <strong>shall comply</strong>. The Minister also determines which activities constitute each maintenance category (s.30(2)), sets the allocation formula weights (s.32(2)), must authorise any regional re-allocation in writing (s.32(7)), designates emergency works that bypass the Annual Maintenance Plan (s.33), and approves the arrears payment schedule (s.57(3)).</p>
+<p><strong>Governance and revenue live in different statutes.</strong> Act 1147 governs the fund. The Road Fund Levy itself sits in the Schedule to the Energy Sector Levies Act, 2025 (Act 1135). Parliament reformed the fund&rsquo;s governance in 2025 without touching the revenue rate, because the rate is not in that statute.</p>
+<p><strong>The Fund is a payment mechanism, not a contracting party.</strong> Section 53 provides that the Fund shall not enter into road maintenance contracts, is not liable for acts or omissions under them, operates solely as a financial mechanism for receipt, allocation and disbursement, and — despite anything to the contrary in any enactment — that its moneys and assets are not subject to execution, attachment or seizure in satisfaction of any court judgment relating to payment for a road maintenance contract. The Minister confirmed this publicly, noting that unlike GETFund or the NHIS, the RMTF is not authorised to award contracts but must ensure that works undertaken by the road agencies are properly certified and paid for.<sup id="fnref:13"><a class="footnote-ref" href="#fn:13">13</a></sup></p>
+<p>A contractor therefore holds an enforceable contractual claim against the implementing agency — the Ghana Highway Authority, the Department of Urban Roads, or the Department of Feeder Roads — and no enforceable claim against the entity holding the money. There is a defensible rationale: without an attachment bar, the first contractor to obtain judgment could seize the pool and every other contractor would recover nothing. The consequence is nonetheless that payment timing is governed by a schedule the Minister approves, and is not judicially compellable.</p>
+<h3>2.2 The revenue base</h3>
+<p>The Fund is financed principally by a levy on petroleum products, supplemented by tolls, vehicle registration and inspection fees, transit fees from foreign carriers, and axle-load penalties.<sup id="fnref:14"><a class="footnote-ref" href="#fn:14">14</a></sup> The <strong>Road Fund Levy is GH¢0.48 per litre</strong> on petrol, diesel, marine gas oil and naphtha, set as a specific amount in the Schedule to Act 1135.<sup id="fnref:15"><a class="footnote-ref" href="#fn:15">15</a></sup> In July 2026 Parliament extended the levy to fuel oil.<sup id="fnref:16"><a class="footnote-ref" href="#fn:16">16</a></sup></p>
+<p>Collection runs from the pump through oil marketing companies to the Ghana Revenue Authority, which lodges receipts into dedicated accounts at the Bank of Ghana.<sup id="fnref:17"><a class="footnote-ref" href="#fn:17">17</a></sup> Two structural features matter.</p>
+<p><strong>The rate is specific, not ad valorem.</strong> It is a fixed amount per litre rather than a percentage of pump price, so its real value erodes with inflation between legislative amendments and its revenue grows only with fuel volume.</p>
+<p><strong>It has no mechanism for adjusting itself.</strong> The levy stood at roughly GH¢0.07 per litre from redenomination in 2007 until 2015; moved to GH¢0.40 when the Energy Sector Levies Act, 2015 (Act 899) consolidated it into the ESLA framework; and moved to GH¢0.48 under the ESLA (Amendment) Act, 2019 (Act 997), assented 19 August 2019.<sup id="fnref:18"><a class="footnote-ref" href="#fn:18">18</a></sup> It has moved twice in nineteen years, on both occasions as part of a wider legislative exercise rather than as a scheduled adjustment. Ghana&rsquo;s consumer price index stood at 278.45 in 2019 and 855.78 in 2025.<sup id="fnref:19"><a class="footnote-ref" href="#fn:19">19</a></sup></p>
+<p>The Ministry of Finance identified the mechanism itself. Its 2019 report on energy sector levies records the Road Fund Levy being increased that year to correct for the loss in value resulting from consumer price inflation without commensurate increases in the fixed specific-type levies.<sup id="fnref:20"><a class="footnote-ref" href="#fn:20">20</a></sup> It acted once and has not acted since.</p>
+<p>The toll base was also removed and has only recently returned. Road tolls were abolished in the 2022 Budget Statement, presented November 2021, on the argument that congestion costs exceeded revenue forgone.<sup id="fnref:21"><a class="footnote-ref" href="#fn:21">21</a></sup> Tolls had been contributing roughly GH¢78m annually.<sup id="fnref:22"><a class="footnote-ref" href="#fn:22">22</a></sup> In 2026 Parliament approved a twenty-year public-private partnership to reintroduce automated tolling, with 70% of gross toll revenue to Government and 30% to the operator.<sup id="fnref:23"><a class="footnote-ref" href="#fn:23">23</a></sup></p>
+<p><em>A minor note on collection.</em> The Ministry of Finance has recorded shortfalls between amounts collected and amounts lodged, arising partly from a 9% retention by the Ghana Revenue Authority under the GRA Act — which the Ministry itself describes as conflicting with ESLA&rsquo;s requirement that all collections be lodged, and recommends resolving by amendment. The Road Fund Levy shortfall was 16.8% in 2016 but total ESLA lodgment shortfall had fallen to about 2.5% by 2019.<sup id="fnref:24"><a class="footnote-ref" href="#fn:24">24</a></sup> The leakage is real, lawful, and no longer material at scale.</p>
+<h3>2.3 Two pots: what the appropriation actually funds</h3>
+<p>Road spending flows through two parallel channels, not one. The Ministry&rsquo;s appropriation and the Fund&rsquo;s allocation are additive: the 2025 estimates state that the total approved budget ceiling <strong>excluding the Road Fund</strong> is GH¢3,244,979,700, and the 2024 tables list the ministry total and the Road Fund as separate rows that sum to the sector grand total.<sup id="fnref:25"><a class="footnote-ref" href="#fn:25">25</a></sup></p>
+<p><strong>Pot one — the appropriation. Total GH¢3,244,979,701:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Programme</th>
+<th style="text-align: right;">2025 (GH¢)</th>
+<th style="text-align: right;">Share</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Road &amp; Bridge Construction <em>(new construction and bridge works)</em></td>
+<td style="text-align: right;">1,470,845,174</td>
+<td style="text-align: right;">45.3%</td>
+</tr>
+<tr>
+<td>Road Rehabilitation &amp; Maintenance</td>
+<td style="text-align: right;">1,365,373,611</td>
+<td style="text-align: right;">42.1%</td>
+</tr>
+<tr>
+<td>— of which Routine Maintenance</td>
+<td style="text-align: right;">15,772,405</td>
+<td style="text-align: right;">0.49%</td>
+</tr>
+<tr>
+<td>— of which Periodic Maintenance</td>
+<td style="text-align: right;">106,999,429</td>
+<td style="text-align: right;">3.30%</td>
+</tr>
+<tr>
+<td>— of which Minor Rehabilitation</td>
+<td style="text-align: right;">1,242,601,777</td>
+<td style="text-align: right;">38.3%</td>
+</tr>
+<tr>
+<td>Management &amp; Administration</td>
+<td style="text-align: right;">334,765,852</td>
+<td style="text-align: right;">10.3%</td>
+</tr>
+<tr>
+<td>Road Safety &amp; Environment</td>
+<td style="text-align: right;">73,995,064</td>
+<td style="text-align: right;">2.28%</td>
+</tr>
+</tbody>
+</table>
+<p>At programme level, maintenance appears close to parity with construction. Disaggregated, <strong>91% of the maintenance programme is minor rehabilitation</strong> — culverts, drainage structures and minor upgrading on roads that have already deteriorated. Act 1147 defines rehabilitation as restoring a road that has deteriorated through age, wear or damage, expressly excluding routine and periodic maintenance.<sup id="fnref:26"><a class="footnote-ref" href="#fn:26">26</a></sup> It is corrective work, not preservation.</p>
+<p><strong>Genuine preventive maintenance — routine plus periodic — is GH¢122,771,834, or 3.78% of the appropriation.</strong> Spread across 94,203 km, that is approximately <strong>GH¢1,303 per kilometre per year</strong>.</p>
+<p>The three categories sit on a deterioration timeline. Routine maintenance is continuous and preventive, aimed at preserving current condition — pothole patching, grading, vegetation control, drain clearing. Periodic maintenance is planned and cyclical, restoring a road to near-original condition before failure — surface dressing, resealing, regravelling. Rehabilitation is what is required once the first two have been skipped. Ghana&rsquo;s allocation is concentrated at the most expensive end of that sequence.</p>
+<p>Note that the Minister determines by Gazette which activities fall in each category,<sup id="fnref:27"><a class="footnote-ref" href="#fn:27">27</a></sup> so the boundaries are movable by ministerial act.</p>
+<h3>2.4 The fund pays for the past</h3>
+<p><strong>Pot two — the Fund.</strong> In 2024 the Road Fund received approximately GH¢4.8bn. Of the GH¢4.90bn applied:<sup id="fnref:28"><a class="footnote-ref" href="#fn:28">28</a></sup></p>
+<table>
+<thead>
+<tr>
+<th>Application</th>
+<th style="text-align: right;">GH¢</th>
+<th style="text-align: right;">Share of applications</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Arrears to contractors</td>
+<td style="text-align: right;">3,706,766,080</td>
+<td style="text-align: right;">75.7%</td>
+</tr>
+<tr>
+<td>Repayment of a loan taken by the Fund</td>
+<td style="text-align: right;">448,825,900</td>
+<td style="text-align: right;">9.2%</td>
+</tr>
+<tr>
+<td>Current-year maintenance programme</td>
+<td style="text-align: right;">743,889,444</td>
+<td style="text-align: right;">15.2%</td>
+</tr>
+<tr>
+<td><strong>Total</strong></td>
+<td style="text-align: right;"><strong>4,899,481,424</strong></td>
+<td style="text-align: right;"></td>
+</tr>
+</tbody>
+</table>
+<p>Applications exceeded receipts. The Fund had borrowed against future revenue, and roughly six cedis in every seven went to servicing past obligations. Unpaid invoices held at the Secretariat at end-2024 stood at GH¢5.66bn — more than a full year of revenue.</p>
+<p>The Ministry&rsquo;s own performance indicator confirms the consequence. Against a target of covering 70% of routine maintenance needs from the Fund, actual coverage was <strong>40% in 2023 and 45% in 2024</strong>. The figures for periodic maintenance are identical.<sup id="fnref:29"><a class="footnote-ref" href="#fn:29">29</a></sup></p>
+<p>The new fund inherited the position by statute. Section 57(1) transfers the rights, assets and liabilities of the former Road Fund; section 57(3) requires the new Fund to verify and validate all outstanding arrears and to honour payment of verified arrears in accordance with a phased payment schedule approved by the Minister. Parliament did not merely permit the transfer — it obliged the new fund to pay.</p>
+<p>Parliament approved <strong>GH¢3.6bn</strong> for the RMTF, of which <strong>GH¢2.8bn</strong> is allocated to maintenance, rehabilitation, emergency and safety programmes. Against revenue performance of <strong>GH¢3.1bn</strong>, outstanding contractor liabilities stood at <strong>GH¢10.5bn</strong> as at end-June 2026 — approximately <strong>3.4 times annual revenue</strong>.<sup id="fnref:30"><a class="footnote-ref" href="#fn:30">30</a></sup></p>
+<p><strong>GH¢2.8bn is 90.3% of GH¢3.1bn.</strong> Section 31(1) requires the Board to allocate at least ninety per cent of annual revenue exclusively to routine, periodic and emergency maintenance <em>and rehabilitation</em>. The floor is being met to the decimal. Because rehabilitation sits inside it, a fund could allocate the entire protected ninety per cent to repairing failed roads, nothing to preserving sound ones, and remain fully compliant.</p>
+<p>Act 1147 draws the distinction it needs. Section 30(1) classifies maintenance into four categories and section 55 defines rehabilitation as excluding routine and periodic work. Section 31(1) then declines to use that distinction in the Act&rsquo;s only binding allocation rule.</p>
+<h3>2.5 The mechanism</h3>
+<p>Arrears do not arise inside the Fund. They arise on the construction side and are settled from it.</p>
+<ol>
+<li>Construction commitments are made on a multi-year basis at a pace unconstrained by maintenance cash flow. The Big Push programme covers more than 2,000 km across sixteen regions, with close to GH¢50bn in multi-year commitments approved.<sup id="fnref:31"><a class="footnote-ref" href="#fn:31">31</a></sup> An investigation using Right to Information requests alleged 81 sole-sourced contracts worth over GH¢73bn awarded within seven months.<sup id="fnref:32"><a class="footnote-ref" href="#fn:32">32</a></sup> Sole-sourcing removes the friction — advertisement, evaluation, review — that ordinarily paces commitment against cash.</li>
+<li>Certified work produces Interim Payment Certificates. These are contractual obligations against the implementing agency, not against the Fund.</li>
+<li>Contractors are entitled to interest on delayed payment, so arrears compound. The Auditor-General&rsquo;s road performance audits record delayed payments contributing to cost overruns through fluctuations and interest.<sup id="fnref:33"><a class="footnote-ref" href="#fn:33">33</a></sup></li>
+<li>Ring-fenced maintenance revenue is the most liquid pool available, so obligations are settled from it first.</li>
+<li>Preventive maintenance absorbs the residual — 3.78%.</li>
+<li>Roads deteriorate past the point where routine work is effective. A 66 km reconstructed stretch of the Tarkwa–Agona Nkwanta road, built at a cost of €95m, showed significant deterioration in under two years.<sup id="fnref:34"><a class="footnote-ref" href="#fn:34">34</a></sup></li>
+<li>Rehabilitation is a construction expense. Return to step one.</li>
+</ol>
+<p>The scale is acknowledged. The Minister stated in 2025 that government owed road contractors approximately GH¢25bn with outstanding commitments exceeding GH¢100bn, and that some Interim Payment Certificates had been unpaid since 2018.<sup id="fnref:35"><a class="footnote-ref" href="#fn:35">35</a></sup></p>
+<p><strong>Who waits longest is the finding.</strong> At the Board&rsquo;s inauguration the Minister flagged the position of small and medium contractors, many of whom have not been paid since 2019, despite handling roadside weeding, drain clearing and pothole repairs.<sup id="fnref:36"><a class="footnote-ref" href="#fn:36">36</a></sup> That is the statutory definition of routine maintenance. The contractors performing the cheapest and most preventive work in the system are the ones seven years in arrears.</p>
+<p><strong>Act 1147 does not break the loop.</strong> Section 31(1) pools rehabilitation with preservation, so step five is fully compliant. Section 57(3) writes the arrears onto the Fund by statute. Section 53 removes judicial compulsion. Section 23 prohibits the Fund&rsquo;s moneys from being invested, securitised or subjected directly or indirectly to any financial arrangement, foreclosing refinancing of the stock — a provision enacted for good reason, given that the Fund had itself borrowed and spent GH¢448.8m of 2024 revenue on repayment. <strong>The Act assigns the stock to the Fund and removes every mechanism for retiring it.</strong></p>
+<h3>2.6 What cuts the other way</h3>
+<p>Three qualifications, stated plainly.</p>
+<p><strong>The state does pay, and in very large sums.</strong> The Minister stated that as at the end of July 2026 government had disbursed GH¢23.1bn to clear road contractors&rsquo; arrears and fund Big Push projects, the bulk of it arrears.<sup id="fnref:37"><a class="footnote-ref" href="#fn:37">37</a></sup> This is not a government that pays nothing. It is a flow rather than a stock: liabilities still stood at GH¢10.5bn at end-June, a large share of the disbursement went to Big Push contractors — that is, to new construction — and small contractors doing routine maintenance remained unpaid from 2019. The state can move very large sums quickly when it chooses, which makes the <em>composition</em> of what it pays a choice rather than a constraint.</p>
+<p><strong>Causal direction is not proven.</strong> This memo argues that commitments crowd out preservation. An alternative reading is that preservation is underfunded because it is politically invisible, and that arrears are a symptom rather than the mechanism. The available evidence is consistent with both, and public sources do not separate them.</p>
+<p><strong>There is a second arrears channel.</strong> Donor suspension under the debt restructuring stalled eleven major road projects independently of the domestic fund.<sup id="fnref:38"><a class="footnote-ref" href="#fn:38">38</a></sup> Cocoa roads, financed through COCOBOD and accounting for around 66.8% of its quasi-fiscal expenditures, constitute a third channel this memo does not cover.<sup id="fnref:39"><a class="footnote-ref" href="#fn:39">39</a></sup></p>
+<hr />
+<h2 id="3-what-it-would-cost">3. What it would cost</h2>
+<p><strong>Assumptions stated plainly.</strong> These are directional, not engineering estimates.</p>
+<ul>
+<li>Network: 94,203 km.</li>
+<li>Preventive maintenance funded in 2025: GH¢122.8m, or approximately GH¢1,303/km/yr.</li>
+<li>The Ministry&rsquo;s own indicator: current funding meets 45% of routine and periodic maintenance need.</li>
+</ul>
+<p><strong>The recurrent gap.</strong> If GH¢1,303/km/yr represents 45% of assessed need, full funding implies approximately GH¢2,896/km/yr, or <strong>GH¢273m annually</strong> network-wide — an increase of roughly <strong>GH¢150m per year</strong> over current provision. That is about 4% of the GH¢3.6bn approved for the RMTF, and roughly 0.3% of the multi-year Big Push commitment.</p>
+<p><strong>The asymmetry is the point.</strong> The incremental annual cost of fully funding preventive maintenance across Ghana&rsquo;s entire 94,203 km network is smaller than the cost of a single Big Push corridor lot.</p>
+<p><strong>The backlog is not costed here, deliberately.</strong> Rehabilitating roughly 19,800 km of poor-condition road is a separate and far larger problem, and per-kilometre costs in the current market vary by more than an order of magnitude with scope — reported Big Push awards range from roughly GH¢31m/km for a rural upgrade to GH¢80m/km for a dualisation involving bridges and interchanges.<sup id="fnref:40"><a class="footnote-ref" href="#fn:40">40</a></sup> No credible aggregate can be produced from that spread without a scope-matched unit cost, which is not publicly available. The point stands regardless: the backlog exists because the recurrent gap was never closed, and closing the recurrent gap is cheap relative to the cost of continuing to rebuild.</p>
+<hr />
+<h2 id="4-recommendations">4. Recommendations</h2>
+<p>Four measures. They interlock: the third without the second sends every additional cedi to arrears; the second without the first puts the Fund in breach of section 57(3); the first without the fourth clears a backlog that regenerates. Neither of the first two requires new revenue, and the first requires no legislation at all.</p>
+<h3>4.1 Publish the arrears schedule with a terminal date</h3>
+<p>The Minister should publish the arrears payment schedule, with a terminal date for full repayment. Nothing downstream can be planned around an open-ended liability.</p>
+<p>This is not a new deliverable. Section 57(3) requires the Fund to honour verified arrears in accordance with a phased payment schedule <strong>approved by the Minister</strong>. Section 57(4) required the Minister, in consultation with the Minister for Finance, to issue transition guidelines within six months of the Act coming into force — Gazette notification was 14 August 2025, so the deadline fell in mid-February 2026. In August 2026 Parliament&rsquo;s Roads and Transportation Committee recommended that the Ministry develop and implement a phased strategy aimed at reducing outstanding arrears in a systematic and transparent manner,<sup id="fnref:41"><a class="footnote-ref" href="#fn:41">41</a></sup> which suggests the statutory schedule does not exist.</p>
+<p>The Act is capable of setting deadlines. Section 35(4) fixes a hard 30 September date for submission of Annual Maintenance Plans; section 28(3) gives the Auditor-General six months to audit. The provision governing GH¢10.5bn is open-ended.</p>
+<p>Against GH¢3.1bn annual revenue, net of the 5% administrative cap in section 31(2):</p>
+<table>
+<thead>
+<tr>
+<th>Horizon</th>
+<th style="text-align: right;">Annual arrears payment</th>
+<th style="text-align: right;">Share of revenue</th>
+<th style="text-align: right;">Remainder for current work</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>5 years</td>
+<td style="text-align: right;">GH¢2.10bn</td>
+<td style="text-align: right;">68%</td>
+<td style="text-align: right;">~GH¢850m</td>
+</tr>
+<tr>
+<td>7 years</td>
+<td style="text-align: right;">GH¢1.50bn</td>
+<td style="text-align: right;">48%</td>
+<td style="text-align: right;">~GH¢1.45bn</td>
+</tr>
+<tr>
+<td>10 years</td>
+<td style="text-align: right;">GH¢1.05bn</td>
+<td style="text-align: right;">34%</td>
+<td style="text-align: right;">~GH¢1.90bn</td>
+</tr>
+</tbody>
+</table>
+<p>The 2024 current-year maintenance programme was approximately GH¢744m. <strong>Even a five-year clearance schedule leaves more for current work than was actually spent last year.</strong> Affordability is not the constraint. The absence of an allocation rule is.</p>
+<p><strong>Needed:</strong> ministerial action alone. No legislation, no new revenue.
+<strong>Complete when:</strong> a schedule is published in the <em>Gazette</em> with a terminal date, within one budget cycle.</p>
+<h3>4.2 Split the allocation floor in section 31(1)</h3>
+<p>Amend section 31(1) to establish a distinct floor for routine and periodic maintenance, separate from rehabilitation.</p>
+<p>The Act already contains the distinction. Section 30(1) classifies maintenance into four categories; section 55 defines rehabilitation as restoring roads that have already deteriorated, expressly excluding routine and periodic work. Section 31(1) then pools all four into a single ninety per cent floor.</p>
+<p>The effect is visible in the current allocation. GH¢2.8bn of GH¢3.1bn revenue is 90.3% — compliant to the decimal — while routine and periodic maintenance in the 2025 appropriation total GH¢122.77m, or 3.78%. The Act has the vocabulary and does not deploy it in its only binding allocation rule.</p>
+<p><strong>Needed:</strong> one clause from Parliament. No new revenue.
+<strong>Complete when:</strong> routine and periodic maintenance rise above 3.78% of appropriation in the first budget following amendment.
+<strong>Falsified if:</strong> they do not move. The diagnosis would then be wrong.</p>
+<h3>4.3 Index the fuel levy</h3>
+<p>Convert the Road Fund Levy to an indexed specific rate, adjusted annually to the Ghana Statistical Service consumer price index. The charge remains a fixed amount per litre; only the adjustment becomes automatic rather than discretionary.</p>
+<p>The levy has stood at GH¢0.48 since August 2019. Ghana&rsquo;s consumer price index stood at 278.45 that year and 855.78 in 2025. The rate has not moved, and on the historical pattern it moves only when swept into a wider legislative exercise — twice in nineteen years.</p>
+<p>The means to change it exist. The Energy Sector Shortfall and Debt Repayment Levy, charged on the same litre of fuel, rose from GH¢0.95 to GH¢1.95 on petrol with effect from 16 July 2025 under a certificate of urgency, over organised transport-operator opposition, raising GH¢8.81bn in its first year.<sup id="fnref:42"><a class="footnote-ref" href="#fn:42">42</a></sup> Rates were set product by product — LPG and naphtha were left unchanged. In July 2026 Parliament amended the same Schedule again, extended the Road Fund Levy to fuel oil, and left its rate untouched: it edited that row for coverage while declining to touch its value.</p>
+<p>This is the only recommendation here that is politically contested. It is also a precondition for the others. At GH¢0.48 unindexed, Ghana can clear the arrears or fund preservation on a credible timetable, not both.</p>
+<p><strong>Needed:</strong> an indexation clause, or a rate adjustment reflecting cumulative CPI since 2019.
+<strong>Complete when:</strong> the rate is set by formula rather than by amendment.</p>
+<h3>4.4 Attach a coverage target to the performance-contracting mandate</h3>
+<p>Performance-based contracting transfers deterioration risk to the contractor. Payment is tied to sustained service levels over a multi-year term, so the commercial incentive is to maintain rather than to be re-engaged for repair.</p>
+<p>Ghana has already legislated this. Section 3(d) requires the Fund to prioritise performance-based contracts and link disbursement to independently verified performance outputs. Section 36(1)(b) specifies the metrics — pavement roughness, response time to defects, traffic disruption, durability. Section 36(2)(c) requires disbursements verified by independent engineers or auditors.</p>
+<p>Ghana has also already piloted it. The World Bank and EU-supported Transport Sector Improvement Project ran six output- and performance-based road contracts across approximately 1,052 km of trunk and feeder roads in the Upper West, Bono East and Northern regions, with 752 km of rehabilitation completed by December 2023 and the maintenance phase underway.<sup id="fnref:43"><a class="footnote-ref" href="#fn:43">43</a></sup></p>
+<p>What is missing is a target. Section 36 says &ldquo;prioritise&rdquo; and defines no coverage percentage, no timetable, and no consequence for non-adoption. Section 54 empowers the Minister to make Regulations providing for criteria and indicators for performance-based allocations. The instrument exists.</p>
+<p>One caveat: the pilot is donor-financed, and donor disbursement was suspended across eleven projects during the debt restructuring. A scaling commitment should not assume that financing is continuous.</p>
+<p><strong>Needed:</strong> Regulations under section 54. No primary legislation.
+<strong>Complete when:</strong> a percentage of the trunk and feeder network under performance-based contract is published against a stated year.</p>
+<h3>4.5 A note on verification</h3>
+<p>Section 55 defines a performance certificate as issued by an independent engineer, auditor or other designated monitoring authority. Section 36(3), however, provides that the Fund shall not make payment unless a performance and payment certificate has been issued by <strong>the relevant implementing agency</strong>. The independent engineer verifies; the agency remains the gatekeeper on transmission. Certification is therefore still performed within the body that awarded the contract. Closing that gap is a smaller fix than it appears and would strengthen every recommendation above.</p>
+<hr />
+<h2 id="5-what-this-does-not-address">5. What this does not address</h2>
+<p>These four measures clear the existing stock of arrears and protect preservation spending from being absorbed by rehabilitation. They do not constrain the rate at which new commitments are made.</p>
+<p>Arrears originate on the construction side. Contracts awarded faster than the state can settle them generate certificates that become obligations, and those obligations have historically been met from ring-fenced maintenance revenue. In 2024, GH¢3.71bn of Road Fund receipts went to arrears and a further GH¢448.8m to repaying a loan the Fund had itself taken. Section 57(3) now writes that inheritance into statute.</p>
+<p>The structural fix is commitment control: no road contract awarded unless the multi-year liability it creates is registered against a forward provision. Section 39 already requires the Fund to interface with the Ghana Integrated Financial Management Information System, which manages commitments against appropriation, so the mechanism exists in outline. Designing it would require access to commitment data that is not publicly available, and this memo does not attempt it.</p>
+<hr />
+<h2 id="6-conclusion">6. Conclusion</h2>
+<p>Ghana&rsquo;s road maintenance problem has been diagnosed as an institutional problem twice and answered with an institution twice. Act 536 created a ring-fenced fund. Act 1147 gave it parliamentary accountability, criminal penalties, a formula-based allocation, and mandatory technical audits. Neither addressed the arithmetic.</p>
+<p>The current Act contains almost every instrument the sector needs. It fails on where the boundaries are drawn: a maintenance floor that pools preservation with repair, a performance-contracting mandate with no target, an arrears duty with no deadline and no enforceable remedy, and a levy with no mechanism for adjusting itself. Each of these can be complied with in full while the network deteriorates — and in 2025 and 2026, each was.</p>
+<p>The fix is not a third institution. It is a published schedule, one clause, an indexation formula, and a coverage target.</p>
+<hr />
+<h2 id="limitations">Limitations</h2>
+<p><strong>Sources are overwhelmingly governmental.</strong> Condition data, allocation figures and coverage indicators come from the Ministry of Roads and Highways. Arrears figures come from ministerial statements and parliamentary committee reporting.</p>
+<p><strong>No recent independent assessment exists.</strong> The most recent independent, non-governmental assessment of the Fund&rsquo;s finances is the Auditor-General&rsquo;s performance audit of July 2006. The Auditor-General&rsquo;s 2025 report on the management of the District Assemblies Common Fund and other statutory funds does not substantively cover the Fund, so no independent verification of the 2025 position was available. This is itself a finding about fiscal transparency in the sector.</p>
+<p><strong>Whether the section 57(4) transition guidelines were issued could not be established directly.</strong> The conclusion that they were not rests on the parliamentary committee&rsquo;s August 2026 recommendation, which is indirect evidence. The Auditor-General&rsquo;s silence is not evidence on this question either way.</p>
+<p><strong>Motive is not addressed.</strong> This memo documents the structure of incentives from statutory text and published allocations. It cannot determine from public sources whether deferral of arrears reflects fiscal constraint under the IMF programme, competing political priorities, or something else. That distinction would require access this analysis does not have.</p>
+<p><strong>Construction quality is not assessed.</strong> The argument is that deferred maintenance causes premature failure, not that roads are built to inadequate standards. The latter is a different claim requiring engineering evidence.</p>
+<p><strong>Four items remain unverified:</strong> whether the Public Procurement Authority approves contracts above a value threshold; whether the 2024 national road inventory and condition survey completed and what it reported; what &ldquo;validated&rdquo; denotes in the end-2025 condition figure; and whether the section 3(g) public dashboard and section 52(2) published technical audits exist.</p>
+<p><strong>One figure is a proxy.</strong> The GH¢1.19bn Road Fund allocation is the 2024 approved figure; the 2025 Road Fund ceiling does not appear in the Ministry&rsquo;s estimates.</p>
+<hr />
+<details class="annex"><summary><h2 id="annex-the-precedent">Annex: the precedent</h2><span class="hint">Show precedent (2000–2006)</span></summary><div class="annex-body">
+<p><em>This annex establishes recurrence. Its figures are from 2000–2004 in pre-redenomination cedis and are not used to support any claim about the present.</em></p>
+<p>The Road Fund was created in response to the same dynamic this memo describes. The Auditor-General&rsquo;s 2006 performance audit records that expansion of the road network under the Economic Recovery Programme of the 1980s put maintenance and rehabilitation costs far beyond the support of the Ministry&rsquo;s annual budgetary provisions, and that the Road Fund was established to generate revenue for maintenance and end dependence on budgetary allocation.<sup id="fnref:44"><a class="footnote-ref" href="#fn:44">44</a></sup></p>
+<p><strong>The mechanism, stated in 2006.</strong> Opening its findings, the audit attributes rising maintenance need mainly to the construction of more roads and a backlog of poorly maintained ones resulting from inadequate funding.</p>
+<p><strong>Structural deficit, 2000–2004.</strong> Revenue of ¢2,462.33bn against maintenance expenditure of ¢2,590.22bn — a deficit of ¢127.82bn, about 5% of budget. The audit notes this occurred <strong>even under controlled budgeting, where agencies were only permitted to submit maintenance programmes at the level the Road Fund could afford.</strong></p>
+<p><strong>Coverage of need.</strong> In October 2003 the Director of the Road Fund stated the Fund expected to generate about ¢630bn against ¢1.3 trillion needed to maintain the network — a shortfall of 51.5%. The audit describes this as a consistent annual pattern.</p>
+<p>Roughly half of need met in 2003. Roughly half met in 2024. Two decades, two statutes.</p>
+<p><strong>Real erosion, measured in output.</strong> Kilometres achieved per billion cedis fell across 2000–2003 for nearly every agency. The audit&rsquo;s conclusion: contract costs increased at a faster rate than revenue collection, with the ultimate effect a sizeable backlog of poorly maintained roads.</p>
+<p><strong>The warning.</strong> The audit concluded that the fuel levy, the dominant contributor, is not fixed by the Road Fund Board, and that because levies affect petroleum prices their effect on the national economy is weighed before any decision — reinforcing that over-dependence on the fuel levy would not be sustainable in the long run.</p>
+<p><strong>Legislative inertia.</strong> Tolling proposals submitted from April 2001 remained unimplemented at the time of the audit in March 2005, held at the Ministry awaiting parliamentary approval; the Ministry&rsquo;s legal section confirmed they had been ready for some time but were on hold. Four years of forgone revenue from a step nobody took.</p>
+<p><strong>The separation predates the statute.</strong> The audit deliberately did not cover road maintenance itself, because the Road Fund has only a limited supervisory role and maintenance is the function of the implementing agencies. Fund disburses, agencies execute, and no single body owns the outcome — operating in 2006, written into statute as section 53 in 2025.</p>
+<p><strong>Corroborating record.</strong> The World Bank&rsquo;s implementation completion report notes that in 1999 the Road Fund account at the Bank of Ghana was virtually frozen, with annual disbursement collapsing.<sup id="fnref:45"><a class="footnote-ref" href="#fn:45">45</a></sup> A related project delivered approximately 84% of its appraised road length, largely because of delays of up to seven years between appraisal and execution.<sup id="fnref:46"><a class="footnote-ref" href="#fn:46">46</a></sup> The same reports record that periodic maintenance works were to be undertaken mainly by local contractors while heavier rehabilitation was packaged for international competitive bidding — the contracting model this memo recommends scaling.</p>
+<p><strong>The chain.</strong> 1980s expansion outruns the ministry budget → 1997 fund created in response → 1999 account frozen → 2000–2004 structural deficit → 2003 half of need met → 2006 Auditor-General warns the model is unsustainable → 2015 and 2019 levy adjustments → 2024 half of need met → 2025 new statute → 2026 liabilities at 3.4x revenue.</p>
+<hr />
+</div></details><h2 id="notes">Notes</h2>
+<div class="footnote">
+<hr />
+<ol>
+<li id="fn:1">
+<p>Ministry of Roads and Highways, <em>Programme-Based Budget Estimates for 2025</em> (MTEF 2025–2028). https://www.mofep.gov.gh/sites/default/files/pbb-estimates/2025/2025-PBB-MRH.pdf&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">↩</a></p>
+</li>
+<li id="fn:2">
+<p>Ibid., Policy Outcome Indicators and Targets. Years from 2025 are targets, not actuals.&#160;<a class="footnote-backref" href="#fnref:2" title="Jump back to footnote 2 in the text">↩</a></p>
+</li>
+<li id="fn:3">
+<p>&ldquo;44% of Ghana&rsquo;s validated roads in good condition as 2025 ends – Roads Minister,&rdquo; Adom Online, 28 January 2026. https://www.adomonline.com/44-of-ghanas-validated-roads-in-good-condition-as-2025-ends-roads-minister/&#160;<a class="footnote-backref" href="#fnref:3" title="Jump back to footnote 3 in the text">↩</a></p>
+</li>
+<li id="fn:4">
+<p>African Development Bank, <em>Ghana – Road Infrastructure Project Appraisal Report</em>, §3.1.2. https://www.afdb.org/fileadmin/uploads/afdb/Documents/Project-and-Operations/Ghana_-<em>Road_Infrastructure_Project</em>-_Appraisal_Report.pdf&#160;<a class="footnote-backref" href="#fnref:4" title="Jump back to footnote 4 in the text">↩</a></p>
+</li>
+<li id="fn:5">
+<p>Statement of the then-Minister for Roads and Highways, September 2024, on the national road network inventory and condition survey.&#160;<a class="footnote-backref" href="#fnref:5" title="Jump back to footnote 5 in the text">↩</a></p>
+</li>
+<li id="fn:6">
+<p>MoRH, <em>2025 PBB Estimates</em>, network tables; compare the 44/34/22 mix reported elsewhere against the same 94,203 km denominator.&#160;<a class="footnote-backref" href="#fnref:6" title="Jump back to footnote 6 in the text">↩</a></p>
+</li>
+<li id="fn:7">
+<p>Road Maintenance Trust Fund Act, 2025 (Act 1147), ss.32(1)(a), 55. https://imccod.gov.gh/wp-content/uploads/2026/01/ROAD-MAINTENANCE-TRUST-FUND-ACT-2025-ACT-1147.pdf&#160;<a class="footnote-backref" href="#fnref:7" title="Jump back to footnote 7 in the text">↩</a></p>
+</li>
+<li id="fn:8">
+<p>Act 1147, s.48; compare s.40.&#160;<a class="footnote-backref" href="#fnref:8" title="Jump back to footnote 8 in the text">↩</a></p>
+</li>
+<li id="fn:9">
+<p>Asuogyaman District Assembly, Composite Budget, road network and condition narrative. Hosted at mofep.gov.gh.&#160;<a class="footnote-backref" href="#fnref:9" title="Jump back to footnote 9 in the text">↩</a><a class="footnote-backref" href="#fnref2:9" title="Jump back to footnote 9 in the text">↩</a></p>
+</li>
+<li id="fn:10">
+<p>Auditor-General, <em>Performance Audit Report on the Funding of the Ghana Road Fund</em>, 3 July 2006, §§1.1, 2.1; Road Fund Act, 1997 (Act 536). https://ir.parliament.gh/bitstream/handle/123456789/2067/ACT%20536%20Rev%20Ed.pdf&#160;<a class="footnote-backref" href="#fnref:10" title="Jump back to footnote 10 in the text">↩</a></p>
+</li>
+<li id="fn:11">
+<p>Act 1147, ss.1, 56(1). Date of assent and <em>Gazette</em> notification: 14 August 2025.&#160;<a class="footnote-backref" href="#fnref:11" title="Jump back to footnote 11 in the text">↩</a></p>
+</li>
+<li id="fn:12">
+<p>Act 1147, ss.4(1), 8(3), 8(5), 12.&#160;<a class="footnote-backref" href="#fnref:12" title="Jump back to footnote 12 in the text">↩</a></p>
+</li>
+<li id="fn:13">
+<p>Minister for Roads and Highways Governs Kwame Agbodza, remarks at the inauguration of the RMTF Board of Trustees, 9 December 2025, reported in &ldquo;Road maintenance fund board inaugurated,&rdquo; Graphic Online, 11 December 2025. https://www.graphic.com.gh/news/general-news/ghana-news-road-maintenance-fund-board-inaugurated.html&#160;<a class="footnote-backref" href="#fnref:13" title="Jump back to footnote 13 in the text">↩</a></p>
+</li>
+<li id="fn:14">
+<p>Act 1147, s.22.&#160;<a class="footnote-backref" href="#fnref:14" title="Jump back to footnote 14 in the text">↩</a></p>
+</li>
+<li id="fn:15">
+<p>Energy Sector Levies Act, 2025 (Act 1135), Schedule. See also &ldquo;Ghana Energy Sector Levies: Current Rates,&rdquo; TaxLawGH, reviewed 24 July 2026. https://www.taxlawgh.com/ghana-energy-sector-levies&#160;<a class="footnote-backref" href="#fnref:15" title="Jump back to footnote 15 in the text">↩</a></p>
+</li>
+<li id="fn:16">
+<p>Energy Sector Levies (Amendment) Bill, 2026, gazetted 31 July 2026. https://regfollower.com/ghana-increases-energy-sector-levies-on-fuel-oils-introduces-road-fund-charge/&#160;<a class="footnote-backref" href="#fnref:16" title="Jump back to footnote 16 in the text">↩</a></p>
+</li>
+<li id="fn:17">
+<p>Ministry of Finance, <em>Annual Report on the Management of Energy Sector Levies</em>. https://mofep.gov.gh/sites/default/files/reports/economic/Annual%20Report%20on%20the%20management%20of%20Energy%20sector%20levies.pdf&#160;<a class="footnote-backref" href="#fnref:17" title="Jump back to footnote 17 in the text">↩</a></p>
+</li>
+<li id="fn:18">
+<p>Energy Sector Levies Act, 2015 (Act 899), First Schedule; ESLA (Amendment) Act, 2019 (Act 997), assented 19 August 2019; Act 1135 (2025), which repealed Acts 899, 946, 997 and 1064 and restated the Road Fund Levy at GHp48 per litre.&#160;<a class="footnote-backref" href="#fnref:18" title="Jump back to footnote 18 in the text">↩</a></p>
+</li>
+<li id="fn:19">
+<p>World Bank, World Development Indicators, indicator FP.CPI.TOTL, &ldquo;Consumer price index (2010 = 100),&rdquo; Ghana: 278.45 (2019) and 855.78 (2025). Annual-average series, not period-end. Ghana Statistical Service reports annual average inflation of 14.6% for 2025 and 22.9% for 2024, consistent with the World Bank series; the December 2025 year-on-year point rate was 5.4%. GSS&rsquo;s own domestic CPI series was rebased to 2021=100 in 2021 and reports a materially lower headline level (~262 as of early 2026); that series tracks the same inflation but on a different index base and is not directly comparable to the 2010=100 figures used here.&#160;<a class="footnote-backref" href="#fnref:19" title="Jump back to footnote 19 in the text">↩</a></p>
+</li>
+<li id="fn:20">
+<p>Ministry of Finance, <em>Annual Report on the Management of Energy Sector Levies, 2019</em>.&#160;<a class="footnote-backref" href="#fnref:20" title="Jump back to footnote 20 in the text">↩</a></p>
+</li>
+<li id="fn:21">
+<p>&ldquo;Ghana: Road Tolls Abolished,&rdquo; allAfrica / Ghanaian Times, 22 November 2021. https://allafrica.com/stories/202111220635.html&#160;<a class="footnote-backref" href="#fnref:21" title="Jump back to footnote 21 in the text">↩</a></p>
+</li>
+<li id="fn:22">
+<p>&ldquo;Road toll reintroduction: Solution or burden?&rdquo;, Graphic Online. https://www.graphic.com.gh/features/opinion/ghana-news-road-toll-reintroduction-solution-or-burden.html&#160;<a class="footnote-backref" href="#fnref:22" title="Jump back to footnote 22 in the text">↩</a></p>
+</li>
+<li id="fn:23">
+<p>&ldquo;Reintroduction of road and bridge tolls; Parliament approves 20-year Private Partnership,&rdquo; GBC Ghana Online, 2026. https://www.gbcghanaonline.com/news/road-and-bridge-tolls/2026/&#160;<a class="footnote-backref" href="#fnref:23" title="Jump back to footnote 23 in the text">↩</a></p>
+</li>
+<li id="fn:24">
+<p>Ministry of Finance, <em>Annual Report on the Management of Energy Sector Levies</em>, 2016 and 2019 editions.&#160;<a class="footnote-backref" href="#fnref:24" title="Jump back to footnote 24 in the text">↩</a></p>
+</li>
+<li id="fn:25">
+<p>MoRH, <em>2025 PBB Estimates</em>, appropriation summary and 2024 expenditure performance tables. The 2024 ministry total of GH¢4,613,561,786 and the Road Fund approved allocation of GH¢1,192,715,344 are listed as separate rows.&#160;<a class="footnote-backref" href="#fnref:25" title="Jump back to footnote 25 in the text">↩</a></p>
+</li>
+<li id="fn:26">
+<p>Act 1147, ss.30(1), 55.&#160;<a class="footnote-backref" href="#fnref:26" title="Jump back to footnote 26 in the text">↩</a></p>
+</li>
+<li id="fn:27">
+<p>Act 1147, s.30(2).&#160;<a class="footnote-backref" href="#fnref:27" title="Jump back to footnote 27 in the text">↩</a></p>
+</li>
+<li id="fn:28">
+<p>MoRH, <em>2025 PBB Estimates</em>, §6 Expenditure Trends and Financial Performance for 2024. The current-year figure is derived: GH¢1,192,715,344 approved less GH¢448,825,900 loan repayment.&#160;<a class="footnote-backref" href="#fnref:28" title="Jump back to footnote 28 in the text">↩</a></p>
+</li>
+<li id="fn:29">
+<p>Ibid., Sub-Programme Results Statements SP3.1 and SP3.2.&#160;<a class="footnote-backref" href="#fnref:29" title="Jump back to footnote 29 in the text">↩</a></p>
+</li>
+<li id="fn:30">
+<p>&ldquo;Parliament approves GH¢3.6bn for Road Maintenance Trust Fund,&rdquo; Ghanaian Times, August 2026. https://ghanaiantimes.com.gh/parliament-approves-gh%C2%A23-6bn-for-road-maintenance-trust-fund/&#160;<a class="footnote-backref" href="#fnref:30" title="Jump back to footnote 30 in the text">↩</a></p>
+</li>
+<li id="fn:31">
+<p>&ldquo;Agbodza pushes back on Dodo Pepesu–Nkwanta road cost allegations,&rdquo; News Ghana, March 2026. https://www.newsghana.com.gh/agbodza-pushes-back-on-dodo-pepesu-nkwanta-road-cost-allegations/&#160;<a class="footnote-backref" href="#fnref:31" title="Jump back to footnote 31 in the text">↩</a></p>
+</li>
+<li id="fn:32">
+<p>Ibid., reporting an investigation by The Fourth Estate. Approvals given for these awards could not be established from public sources.&#160;<a class="footnote-backref" href="#fnref:32" title="Jump back to footnote 32 in the text">↩</a></p>
+</li>
+<li id="fn:33">
+<p>&ldquo;A Deep Dive into the Auditor General&rsquo;s Performance Audit for Roads,&rdquo; Corruption Watch Ghana, April 2020. https://corruptionwatchghana.org/2020/04/02/a-deep-dive-into-the-auditor-generals-performance-audit-for-roads/&#160;<a class="footnote-backref" href="#fnref:33" title="Jump back to footnote 33 in the text">↩</a></p>
+</li>
+<li id="fn:34">
+<p>Ghana Highway Authority, Minister&rsquo;s inspection report, April 2025. https://www.highways.gov.gh/blog_post/43/&#160;<a class="footnote-backref" href="#fnref:34" title="Jump back to footnote 34 in the text">↩</a></p>
+</li>
+<li id="fn:35">
+<p>&ldquo;Broken roads, broken promises,&rdquo; Graphic Online, 22 May 2025. https://www.graphic.com.gh/features/opinion/ghana-news-broken-roads-broken-promises-how-delayed-payments-to-contractors-undermine-ghanas-progress.html&#160;<a class="footnote-backref" href="#fnref:35" title="Jump back to footnote 35 in the text">↩</a></p>
+</li>
+<li id="fn:36">
+<p>Minister for Roads and Highways Governs Kwame Agbodza, remarks at the inauguration of the RMTF Board of Trustees, 9 December 2025, reported in &ldquo;Road maintenance fund board inaugurated,&rdquo; Graphic Online, 11 December 2025. https://www.graphic.com.gh/news/general-news/ghana-news-road-maintenance-fund-board-inaugurated.html&#160;<a class="footnote-backref" href="#fnref:36" title="Jump back to footnote 36 in the text">↩</a></p>
+</li>
+<li id="fn:37">
+<p>Minister for Roads and Highways Governs Kwame Agbodza, remarks during President Mahama&rsquo;s inspection of the Navrongo–Chuchuliga–Tumu Road, reported in &ldquo;Gov&rsquo;t disburses GH¢23.1bn to clear road contractors&rsquo; arrears – Roads Minister,&rdquo; MyJoyOnline, August 2026. https://www.myjoyonline.com/govt-disburses-gh%C2%A223-1bn-to-clear-road-contractors-arrears-roads-minister/&#160;<a class="footnote-backref" href="#fnref:37" title="Jump back to footnote 37 in the text">↩</a></p>
+</li>
+<li id="fn:38">
+<p>MoRH, <em>2025 PBB Estimates</em>, project status listings.&#160;<a class="footnote-backref" href="#fnref:38" title="Jump back to footnote 38 in the text">↩</a></p>
+</li>
+<li id="fn:39">
+<p>Ministry of Finance, <em>Budget Statement and Economic Policy for 2025</em>.&#160;<a class="footnote-backref" href="#fnref:39" title="Jump back to footnote 39 in the text">↩</a></p>
+</li>
+<li id="fn:40">
+<p>&ldquo;Big Push: Here&rsquo;s how much we&rsquo;re paying for every kilometre of road in Ghana,&rdquo; The Fourth Estate, March 2026. https://thefourthestategh.com/2026/03/big-push-heres-how-much-were-paying-for-every-kilometre-of-road/&#160;<a class="footnote-backref" href="#fnref:40" title="Jump back to footnote 40 in the text">↩</a></p>
+</li>
+<li id="fn:41">
+<p>Report of Parliament&rsquo;s Finance Committee recommending a phased arrears-clearance strategy, cited in &ldquo;Parliament approves GH¢3.6bn for Road Maintenance Trust Fund,&rdquo; Ghanaian Times, August 2026 (same source as fn30). https://ghanaiantimes.com.gh/parliament-approves-gh%C2%A23-6bn-for-road-maintenance-trust-fund/&#160;<a class="footnote-backref" href="#fnref:41" title="Jump back to footnote 41 in the text">↩</a></p>
+</li>
+<li id="fn:42">
+<p>&ldquo;GRA confirms July 16 start date for revised energy sector levies,&rdquo; Graphic Online, 2 July 2025. https://www.graphic.com.gh/news/general-news/gra-confirms-july-16-start-date-for-revised-energy-sector-levies.html ; Energy Sector Levies (Amendment) Act, 2025 (Act 1141).&#160;<a class="footnote-backref" href="#fnref:42" title="Jump back to footnote 42 in the text">↩</a></p>
+</li>
+<li id="fn:43">
+<p>World Bank, <em>Implementation Status &amp; Results Report</em>, Transport Sector Improvement Project, February 2024. https://documents1.worldbank.org/curated/en/099021124080510552/pdf/P15102612dbb730921be6c189d0eafc0235.pdf ; MoRH, <em>2025 PBB Estimates</em>, Summary of Key Achievements in 2024.&#160;<a class="footnote-backref" href="#fnref:43" title="Jump back to footnote 43 in the text">↩</a></p>
+</li>
+<li id="fn:44">
+<p>Auditor-General, <em>Performance Audit Report on the Funding of the Ghana Road Fund</em>, 3 July 2006. All annex figures in this section are drawn from that report unless otherwise noted.&#160;<a class="footnote-backref" href="#fnref:44" title="Jump back to footnote 44 in the text">↩</a></p>
+</li>
+<li id="fn:45">
+<p>World Bank Report No. 24248. https://documents1.worldbank.org/curated/en/557961468249626582/pdf/multi0page.pdf&#160;<a class="footnote-backref" href="#fnref:45" title="Jump back to footnote 45 in the text">↩</a></p>
+</li>
+<li id="fn:46">
+<p>World Bank Report No. 18413. https://documents1.worldbank.org/curated/en/572901468251418215/pdf/multi-page.pdf&#160;<a class="footnote-backref" href="#fnref:46" title="Jump back to footnote 46 in the text">↩</a></p>
+</li>
+<li id="fn:47">
+<p>Minister for Roads and Highways Kwasi Amoako-Attah, quoted in &ldquo;We&rsquo;ll build better, safer roads in Ghana,&rdquo; Ministry of Roads and Highways. https://mrh.gov.gh/well-build-better-safer-roads-in-ghana-roads-minister/ — total network 94,203 km, 27% paved, 73% unpaved.&#160;<a class="footnote-backref" href="#fnref:47" title="Jump back to footnote 47 in the text">↩</a></p>
+</li>
+</ol>
+</div>
+    </article>
+  </div>
+</div>
+<script>
+(function(){
+  // footnote popovers: click a reference to read the note in place
+  var pop=null;
+  function close(){ if(pop){pop.remove();pop=null;} }
+  document.addEventListener('click',function(e){
+    var a=e.target.closest('a.footnote-ref');
+    if(!a){ if(pop && !e.target.closest('.fnpop')) close(); return; }
+    e.preventDefault();
+    var id=a.getAttribute('href').slice(1); var li=document.getElementById(id);
+    if(!li) return;
+    close();
+    pop=document.createElement('div'); pop.className='fnpop'; pop.setAttribute('role','note');
+    var n=a.textContent.replace(/\D/g,'');
+    pop.innerHTML='<span class="n">'+n+'</span>'+li.innerHTML.replace(/<a class="footnote-backref".*?<\/a>/,'');
+    document.body.appendChild(pop);
+    var r=a.getBoundingClientRect(); var x=r.left+window.scrollX, y=r.bottom+window.scrollY+8;
+    var w=Math.min(pop.offsetWidth, window.innerWidth-24);
+    if(x+w>window.innerWidth-12) x=Math.max(12, window.innerWidth-12-w);
+    pop.style.left=x+'px'; pop.style.top=y+'px';
+  });
+  document.addEventListener('keydown',function(e){ if(e.key==='Escape') close(); });
+  // active TOC section
+  var links=[].slice.call(document.querySelectorAll('.toc a[href^="#"]'));
+  var heads=links.map(function(l){return document.getElementById(l.getAttribute('href').slice(1));});
+  function mark(){ var y=window.scrollY+120, cur=0; heads.forEach(function(h,i){ if(h && h.offsetTop<=y) cur=i;}); links.forEach(function(l,i){l.classList.toggle('active',i===cur);}); }
+  window.addEventListener('scroll',mark,{passive:true}); mark();
+})();
+</script>
+</body>
+</html>

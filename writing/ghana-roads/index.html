@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<title>Compliance Without Preservation — Ghana's road maintenance funds</title>
+<meta name="description" content="Why Ghana's road maintenance funds keep failing, and the four changes that would matter most. An independent policy analysis from primary sources.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700;900&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,700;1,8..60,400&display=swap" rel="stylesheet">
+<style>
+:root{
+  --paper:#EEEFEA; --ink:#22262A; --ink-2:#4A5056; --rule:#C9CBC3;
+  --yellow:#F2C230; --laterite:#9C3D1F; --asphalt:#3A3F45; --asphalt-2:#5B6168;
+  --concrete:#CFCEC6; --concrete-2:#B7B6AE; --white:#FFFFFF;
+  --sans:"Overpass","Helvetica Neue",Arial,sans-serif;
+  --serif:"Source Serif 4",Charter,Georgia,serif;
+}
+*{box-sizing:border-box}
+html{background:var(--paper);scroll-behavior:smooth}
+body{margin:0;color:var(--ink);font-family:var(--serif);font-size:1.0625rem;line-height:1.6;background:var(--paper)}
+h1,h2,h3,.sans{font-family:var(--sans)}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--yellow);outline-offset:3px}
+.wrap{max-width:1100px;margin:0 auto;padding:0 1.25rem}
+p{max-width:66ch}
+
+/* top bar */
+.top{display:flex;justify-content:space-between;align-items:baseline;gap:1rem;flex-wrap:wrap;padding:1.4rem 0 0;font-family:var(--sans);font-size:.95rem}
+.top .site{text-decoration:none;font-weight:700;border-bottom:3px solid var(--yellow);padding-bottom:1px}
+.top .kind{color:var(--ink-2)}
+
+/* buttons */
+.btn{display:inline-block;font-family:var(--sans);font-weight:700;font-size:1rem;line-height:1;padding:.8rem 1.15rem;border:2px solid var(--ink);color:var(--ink);text-decoration:none;background:transparent}
+.btn.primary{background:var(--ink);color:var(--paper)}
+.btn:hover{background:var(--white)} .btn.primary:hover{background:#000}
+.actions{display:flex;gap:.7rem;flex-wrap:wrap;margin-top:1.8rem}
+
+/* hero */
+.hero{padding:3.5rem 0 3rem}
+.hero h1{font-size:clamp(2rem,4.6vw,3.4rem);line-height:1.04;letter-spacing:-.02em;font-weight:900;margin:0 0 1.2rem;max-width:20ch}
+.hero .lede{font-size:1.2rem;line-height:1.5;color:var(--ink-2);max-width:52ch;margin:0}
+.hero .by{font-family:var(--sans);color:var(--ink-2);font-size:.95rem;margin:1.2rem 0 0}
+
+/* the appropriation bar */
+.bar-block{margin-top:3rem}
+.bar-title{font-family:var(--sans);font-weight:700;font-size:1.05rem;margin:0 0 .6rem}
+.bar-title small{font-weight:400;color:var(--ink-2)}
+.bar{display:flex;height:64px;width:100%;border:2px solid var(--ink);background:var(--white)}
+.bar .seg{position:relative;height:100%;border-right:2px solid var(--paper)}
+.bar .seg:last-child{border-right:0}
+.bar .seg.construction{background:var(--asphalt)}
+.bar .seg.rehab{background:var(--asphalt-2)}
+.bar .seg.admin{background:var(--concrete)}
+.bar .seg.safety{background:var(--concrete-2)}
+.bar .seg.preserve{background:var(--yellow);min-width:6px}
+.bar-legend{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:.6rem 1.4rem;margin-top:.9rem;font-family:var(--sans);font-size:.92rem;line-height:1.35}
+.bar-legend div{display:flex;gap:.55rem;align-items:flex-start}
+.sw{flex:0 0 14px;height:14px;margin-top:3px;border:1px solid rgba(0,0,0,.25)}
+.sw.construction{background:var(--asphalt)} .sw.rehab{background:var(--asphalt-2)} .sw.admin{background:var(--concrete)} .sw.safety{background:var(--concrete-2)} .sw.preserve{background:var(--yellow)}
+.sw.minor{background:var(--asphalt-2)} .sw.periodic{background:var(--yellow)} .sw.routine{background:#FFE58A}
+.sw.arrears{background:var(--laterite)} .sw.loan{background:#C27A5B} .sw.current{background:var(--concrete)} .sw.outside{background:var(--concrete-2)} .sw.floor{background:var(--asphalt-2)}
+.bar-legend strong{display:block;font-size:1.05rem}
+.bar-legend .preserve-note strong{color:#6B4F00}
+.callout{border-left:6px solid var(--yellow);padding:.4rem 0 .4rem 1rem;margin:1.6rem 0 0;max-width:60ch}
+.callout p{margin:0}
+
+/* sections */
+section{padding:3.6rem 0 1rem;border-top:1px solid var(--rule)}
+section h2{font-size:clamp(1.5rem,2.6vw,2rem);line-height:1.15;margin:0 0 .5rem;letter-spacing:-.01em}
+section .intro{color:var(--ink-2);margin:0 0 2rem;max-width:60ch}
+
+/* two pots */
+.toggle{display:inline-flex;border:2px solid var(--ink);margin:0 0 2rem;font-family:var(--sans)}
+.toggle button{font:inherit;font-weight:700;font-size:1rem;background:transparent;border:0;padding:.75rem 1.1rem;cursor:pointer;color:var(--ink);line-height:1.2}
+.toggle button[aria-pressed=true]{background:var(--ink);color:var(--paper)}
+.toggle button+button{border-left:2px solid var(--ink)}
+.pots{display:grid;grid-template-columns:1fr;gap:2.5rem}
+@media(min-width:820px){.pots{grid-template-columns:1fr 1fr;gap:3rem}}
+.pot h3{font-size:1.2rem;margin:0 0 .15rem}
+.pot .sub{font-family:var(--sans);color:var(--ink-2);font-size:.95rem;margin:0 0 1rem;min-height:4.7em}
+.pot-row{display:grid;grid-template-columns:120px 1fr;gap:1.2rem;align-items:stretch}
+@media(min-width:520px){.pot-row{grid-template-columns:150px 1fr}}
+.column{height:400px;display:flex;flex-direction:column;border:2px solid var(--ink);background:var(--white)}
+.column button.seg{display:block;width:100%;border:0;min-height:5px;border-bottom:2px solid var(--paper);padding:0;cursor:pointer;position:relative;transition:flex-basis .45s ease}
+.column button.seg:last-child{border-bottom:0}
+.column button.seg[data-k=construction]{background:var(--asphalt)}
+.column button.seg[data-k=rehab]{background:var(--asphalt-2)}
+.column button.seg[data-k=minor]{background:var(--asphalt-2)}
+.column button.seg[data-k=periodic]{background:var(--yellow)}
+.column button.seg[data-k=routine]{background:#FFE58A}
+.column button.seg[data-k=admin]{background:var(--concrete)}
+.column button.seg[data-k=safety]{background:var(--concrete-2)}
+.column button.seg[data-k=floor]{background:var(--asphalt-2)}
+.column button.seg[data-k=outside]{background:var(--concrete-2)}
+.column button.seg[data-k=arrears]{background:var(--laterite)}
+.column button.seg[data-k=loan]{background:#C27A5B}
+.column button.seg[data-k=current]{background:var(--concrete)}
+.column button.seg[aria-pressed=true]::after{content:"";position:absolute;inset:0;border:3px solid var(--ink);pointer-events:none}
+.column button.seg:hover{filter:brightness(1.08)}
+.legend{font-family:var(--sans);font-size:.93rem;line-height:1.35;display:flex;flex-direction:column;justify-content:space-between}
+.legend ul{list-style:none;margin:0;padding:0}
+.legend li{display:flex;gap:.55rem;align-items:flex-start;margin:0 0 .55rem}
+.legend li .sw{margin-top:3px}
+.legend li .n{font-weight:700;font-variant-numeric:tabular-nums;margin-right:.35rem}
+.legend li.dim{color:var(--ink-2)}
+.verdict{border-top:2px solid var(--ink);padding-top:.7rem;margin-top:1rem;font-family:var(--serif);font-size:1rem;line-height:1.45}
+.verdict strong{font-family:var(--sans)}
+.detail{margin:1rem 0 0;min-height:4.6rem;padding:.8rem 1rem;background:var(--white);border:1px solid var(--rule);font-size:.98rem;line-height:1.45}
+.detail .amt{font-family:var(--sans);font-weight:700;margin-right:.5rem}
+.detail.hint{color:var(--ink-2);font-family:var(--sans);font-size:.92rem;background:transparent;border-style:dashed}
+.pot .yr{font-family:var(--sans);font-size:.85rem;color:var(--ink-2);margin:.5rem 0 0}
+.pots-note{margin:2.2rem 0 0;max-width:66ch;color:var(--ink-2);font-size:.98rem}
+
+/* loop */
+.loop-grid{display:grid;grid-template-columns:1fr;gap:2rem;align-items:start}
+@media(min-width:900px){.loop-grid{grid-template-columns:minmax(0,1.05fr) minmax(0,1fr);gap:3rem}}
+.loop-svg{width:100%;height:auto;display:block;max-width:560px}
+.loop-svg .node{cursor:pointer}
+.loop-svg .node circle{fill:var(--white);stroke:var(--asphalt);stroke-width:3;transition:fill .2s}
+.loop-svg .node.arrears circle{stroke:var(--laterite)}
+.loop-svg .node.preserve circle{stroke:#B8880A;fill:var(--yellow)}
+.loop-svg .node text{font-family:var(--sans);font-weight:700;font-size:15px;fill:var(--ink);text-anchor:middle;pointer-events:none}
+.loop-svg .node .lbl{font-weight:400;font-size:12.5px;fill:var(--ink-2)}
+.loop-svg .node[aria-pressed=true] circle{fill:var(--ink);stroke:var(--ink)}
+.loop-svg .node[aria-pressed=true] text{fill:var(--paper)}
+.loop-svg .node.preserve[aria-pressed=true] circle{fill:var(--ink)}
+.loop-svg .node:focus{outline:none}
+.loop-svg .node:focus circle{stroke-width:5}
+.loop-svg .track{fill:none;stroke:var(--concrete-2);stroke-width:3}
+.loop-svg .arrow{fill:var(--asphalt-2)}
+.loop-svg .pulse{fill:var(--yellow);stroke:var(--ink);stroke-width:2}
+@media(prefers-reduced-motion:reduce){.loop-svg .pulse{display:none}}
+.loop-svg .center text{font-family:var(--sans);text-anchor:middle;fill:var(--ink-2);font-size:13px}
+.loop-svg .center .big{font-size:22px;font-weight:900;fill:var(--ink)}
+.step{border-top:2px solid var(--ink);padding-top:1rem}
+.step .k{font-family:var(--sans);font-size:.9rem;color:var(--ink-2);margin:0 0 .2rem}
+.step h3{font-size:1.35rem;line-height:1.2;margin:0 0 .7rem}
+.step p{margin:0 0 .8rem}
+.step .fig{font-family:var(--sans);font-weight:900;font-size:2rem;line-height:1;margin:0 0 .3rem;letter-spacing:-.01em}
+.step .fig small{font-weight:400;font-size:.95rem;color:var(--ink-2);letter-spacing:0;margin-left:.4rem}
+.step .src{font-size:.88rem;color:var(--ink-2);border-top:1px solid var(--rule);padding-top:.6rem;margin-top:1rem}
+.stepnav{display:flex;gap:.5rem;margin-top:1.2rem;font-family:var(--sans)}
+.stepnav button{font:inherit;font-weight:700;background:transparent;border:2px solid var(--ink);padding:.5rem .8rem;cursor:pointer;line-height:1}
+.stepnav button:hover{background:var(--white)}
+
+/* brief */
+.brief{display:grid;grid-template-columns:1fr;gap:2.4rem}
+@media(min-width:900px){.brief{grid-template-columns:minmax(0,1fr) minmax(0,1.3fr);gap:4rem}}
+.brief h3{font-size:1.15rem;margin:0 0 .5rem}
+.brief .num{font-family:var(--sans);font-weight:900;font-size:2.8rem;line-height:1;letter-spacing:-.02em;margin:0 0 .2rem}
+.brief .num span{color:#8A6600} .brief .num span.cur{font-size:.5em;vertical-align:.35em;letter-spacing:0}
+.recs{list-style:none;margin:0;padding:0;counter-reset:rec}
+.recs li{counter-increment:rec;display:grid;grid-template-columns:2.4rem 1fr;gap:.8rem;padding:1.1rem 0;border-top:1px solid var(--rule)}
+.recs li:last-child{border-bottom:1px solid var(--rule)}
+.recs li::before{content:counter(rec);font-family:var(--sans);font-weight:900;font-size:1.6rem;line-height:1;color:var(--ink-2);padding-top:.15rem}
+.recs h4{font-family:var(--sans);font-size:1.1rem;margin:0 0 .3rem}
+.recs p{margin:0 0 .45rem;font-size:1rem}
+.recs .meta{font-family:var(--sans);font-size:.9rem;color:var(--ink-2);display:grid;grid-template-columns:auto 1fr;gap:.15rem .7rem}
+.recs .meta b{font-weight:700;color:var(--ink)}
+.order-note{font-size:.92rem;color:var(--ink-2);margin:0 0 1rem}
+
+/* checks */
+.checks{display:grid;grid-template-columns:1fr;gap:1.6rem}
+@media(min-width:820px){.checks{grid-template-columns:1fr 1fr 1fr;gap:2.5rem}}
+.check{border-top:2px solid var(--ink);padding-top:.8rem}
+.check .fig{font-family:var(--sans);font-weight:900;font-size:1.9rem;line-height:1;margin:0 0 .4rem}
+.check p{margin:0;font-size:.98rem;color:var(--ink-2)}
+.method{margin-top:2.6rem;max-width:66ch}
+.method h3{font-size:1.15rem;margin:0 0 .5rem}
+
+/* field */
+.field blockquote{margin:0;padding:0 0 0 1.2rem;border-left:6px solid var(--laterite);font-size:1.15rem;line-height:1.55;max-width:60ch}
+.field blockquote p{margin:0 0 1rem}
+.field cite{display:block;font-family:var(--sans);font-style:normal;font-size:.92rem;color:var(--ink-2)}
+
+/* close */
+.close{padding-bottom:4rem}
+.close .actions{margin-top:1.4rem}
+.close p.small{font-size:.92rem;color:var(--ink-2);margin-top:2rem}
+footer{border-top:3px solid var(--ink);padding:1.4rem 0 2.5rem;font-family:var(--sans);font-size:.92rem;color:var(--ink-2);display:flex;justify-content:space-between;flex-wrap:wrap;gap:1rem}
+footer a{color:var(--ink)}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<nav class="top" aria-label="Site">
+  <a class="site" href="/">Valen Cole</a>
+  <span class="kind">Independent policy analysis</span>
+</nav>
+
+<header class="hero">
+  <h1>Ghana has built a road maintenance fund twice. Both times the law could be followed to the letter while the roads got worse.</h1>
+  <p class="lede">Compliance Without Preservation traces why, from the statutes and budget documents themselves, and proposes four changes ordered by what each one needs in order to work.</p>
+  <p class="by">Valen Cole, September 2026. About 6,400 words, 47 sources.</p>
+
+  <div class="bar-block">
+    <p class="bar-title">Where the Ministry of Roads and Highways put its 2025 budget <small>GH¢3.24 billion</small></p>
+    <div class="bar" role="img" aria-label="2025 appropriation: 45.3% new construction, 38.3% minor rehabilitation, 3.78% routine and periodic maintenance, 10.3% administration, 2.28% road safety">
+      <div class="seg construction" style="flex:45.33"></div>
+      <div class="seg rehab" style="flex:38.29"></div>
+      <div class="seg preserve" style="flex:3.78"></div>
+      <div class="seg admin" style="flex:10.32"></div>
+      <div class="seg safety" style="flex:2.28"></div>
+    </div>
+    <div class="bar-legend">
+      <div><span class="sw construction"></span><div><strong>45.3%</strong>New roads and bridges</div></div>
+      <div><span class="sw rehab"></span><div><strong>38.3%</strong>Minor rehabilitation of roads that have already failed</div></div>
+      <div class="preserve-note"><span class="sw preserve"></span><div><strong>3.78%</strong>Routine and periodic maintenance, the work that stops roads failing</div></div>
+      <div><span class="sw admin"></span><div><strong>10.3%</strong>Management and administration</div></div>
+      <div><span class="sw safety"></span><div><strong>2.28%</strong>Road safety and environment</div></div>
+    </div>
+    <div class="callout"><p>The yellow sliver is the whole story. Across the 94,203 km network it works out to about GH¢1,303 per kilometre per year, and by the Ministry's own indicator it covers 45% of what routine maintenance needs.</p></div>
+  </div>
+
+  <div class="actions">
+    <a class="btn primary" href="ghana-roads-memo.html">Read the full memo</a>
+    <a class="btn" href="compliance-without-preservation.pdf" download>Download the PDF</a>
+  </div>
+</header>
+
+<!-- ===================== TWO POTS ===================== -->
+<section id="pots" aria-labelledby="pots-h">
+  <h2 id="pots-h">Two pots of money, and a law that tests the wrong thing</h2>
+  <p class="intro">Road money flows through two parallel channels: the Ministry's annual budget and a ring-fenced Road Fund financed by a fuel levy. The 2025 Act requires the Fund to put at least 90% of its revenue into "routine, periodic and emergency maintenance and rehabilitation". Ask the two pots two different questions and watch the same numbers change meaning.</p>
+
+  <div class="toggle" role="group" aria-label="Choose the question">
+    <button type="button" id="q-comply" aria-pressed="true">Does it comply with the law?</button>
+    <button type="button" id="q-preserve" aria-pressed="false">Does it preserve roads?</button>
+  </div>
+
+  <div class="pots">
+    <div class="pot" id="pot1">
+      <h3>Pot one: the Ministry's budget</h3>
+      <p class="sub">2025 appropriation, GH¢3,244,979,701. No statutory floor applies here.</p>
+      <div class="pot-row">
+        <div class="column" id="col1" aria-label="Ministry appropriation by programme"></div>
+        <div class="legend"><ul id="leg1"></ul><div class="verdict" id="ver1"></div></div>
+      </div>
+      <div class="detail" id="det1" aria-live="polite"></div>
+    </div>
+
+    <div class="pot" id="pot2">
+      <h3>Pot two: the Road Fund</h3>
+      <p class="sub" id="sub2">Revenue GH¢3.1 billion (2026). Section 31(1) floor: at least 90% to maintenance and rehabilitation.</p>
+      <div class="pot-row">
+        <div class="column" id="col2" aria-label="Road Fund allocation"></div>
+        <div class="legend"><ul id="leg2"></ul><div class="verdict" id="ver2"></div></div>
+      </div>
+      <div class="detail" id="det2" aria-live="polite"></div>
+      <p class="yr" id="yr2"></p>
+    </div>
+  </div>
+
+  <p class="pots-note">The Act already draws the line it needs. Section 30 classifies maintenance into four categories and section 55 defines rehabilitation as restoring a road that has already deteriorated, expressly excluding routine and periodic work. Section 31(1), the only binding allocation rule, then pools all of them into one floor. A fund can put the entire protected 90% into repairing failed roads, nothing into preserving sound ones, and remain fully compliant. In 2026 it did.</p>
+</section>
+
+<!-- ===================== THE LOOP ===================== -->
+<section id="loop" aria-labelledby="loop-h">
+  <h2 id="loop-h">How the fund ends up paying for the past</h2>
+  <p class="intro">Arrears do not arise inside the Fund. They arise on the construction side and are settled from it. Select any step to see the evidence behind it.</p>
+
+  <div class="loop-grid">
+    <svg class="loop-svg" viewBox="0 0 560 560" xmlns="http://www.w3.org/2000/svg" aria-label="The arrears loop, seven steps">
+      <defs>
+        <marker id="ah" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" class="arrow"/></marker>
+        <path id="ring" d="M280 60 A220 220 0 1 1 279.99 60"/>
+      </defs>
+      <g id="arcs"></g>
+      <g class="center" transform="translate(280 280)">
+        <text y="-10" class="big">7 steps</text>
+        <text y="14">then back to the start</text>
+      </g>
+      <g id="nodes"></g>
+      <circle class="pulse" r="9" visibility="hidden"><set attributeName="visibility" to="visible" begin="0.6s" end="7.6s"/><animateMotion dur="7s" begin="0.6s" repeatCount="1" fill="remove"><mpath href="#ring"/></animateMotion></circle>
+    </svg>
+
+    <div class="step" id="step" aria-live="polite">
+      <p class="k" id="step-k"></p>
+      <h3 id="step-h"></h3>
+      <p class="fig" id="step-fig"></p>
+      <div id="step-body"></div>
+      <p class="src" id="step-src"></p>
+      <div class="stepnav">
+        <button type="button" id="prev" aria-label="Previous step">Previous</button>
+        <button type="button" id="next" aria-label="Next step">Next step</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== IN BRIEF ===================== -->
+<section id="brief" aria-labelledby="brief-h">
+  <h2 id="brief-h">The memo in brief</h2>
+  <div class="brief">
+    <div>
+      <h3>The problem</h3>
+      <p>Ghana's road financing reforms fail at the point of drafting, not implementation. Four instruments, the maintenance floor, the performance-contracting mandate, the arrears duty and the levy, are each written loosely enough that full compliance is compatible with continued deterioration.</p>
+      <h3>The mechanism</h3>
+      <p>Construction commitments outrun cash. Certified work becomes arrears, arrears are settled from the ring-fenced maintenance revenue because it is the most liquid pool available, preservation absorbs whatever is left, roads fail early, and rehabilitation is booked as construction. Every step is lawful.</p>
+      <h3>The scale</h3>
+      <p class="num">3.4<span>×</span></p>
+      <p>Outstanding contractor liabilities of GH¢10.5 billion against GH¢3.1 billion of annual Fund revenue, at end-June 2026.</p>
+      <p class="num"><span class="cur">GH¢</span>150m</p>
+      <p>The extra needed each year to fully fund preventive maintenance across the whole network. Roughly 0.3% of the Big Push construction commitment.</p>
+    </div>
+    <div>
+      <h3>Four changes, ordered by what each requires</h3>
+      <p class="order-note">The first needs only the Minister. The second needs one clause. Neither needs new revenue.</p>
+      <ol class="recs">
+        <li>
+          <div>
+            <h4>Publish the arrears schedule with a terminal date</h4>
+            <p>Section 57(3) already requires a phased schedule approved by the Minister. Even a five-year clearance leaves more for current work than was spent in 2024.</p>
+            <div class="meta"><b>Needs</b><span>Ministerial action alone</span><b>Done when</b><span>A schedule with an end date is gazetted within one budget cycle</span></div>
+          </div>
+        </li>
+        <li>
+          <div>
+            <h4>Split the 90% floor so preservation has its own share</h4>
+            <p>Amend section 31(1) to set a distinct floor for routine and periodic maintenance, separate from rehabilitation. The Act has the vocabulary and does not use it.</p>
+            <div class="meta"><b>Needs</b><span>One clause from Parliament</span><b>Done when</b><span>Routine and periodic rise above 3.78% in the first budget after amendment</span></div>
+          </div>
+        </li>
+        <li>
+          <div>
+            <h4>Index the fuel levy to inflation</h4>
+            <p>GH¢0.48 per litre since August 2019, while the consumer price index roughly tripled. The levy has moved twice in nineteen years, both times inside a larger bill.</p>
+            <div class="meta"><b>Needs</b><span>An indexation clause, or a catch-up adjustment</span><b>Done when</b><span>The rate is set by formula rather than by amendment</span></div>
+          </div>
+        </li>
+        <li>
+          <div>
+            <h4>Attach a coverage target to performance-based contracting</h4>
+            <p>The Act says "prioritise" and sets no percentage, timetable or consequence. Ghana has already piloted the model on about 1,052 km.</p>
+            <div class="meta"><b>Needs</b><span>Regulations under section 54</span><b>Done when</b><span>A share of the network under performance contract is published against a year</span></div>
+          </div>
+        </li>
+      </ol>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== CHECKS ===================== -->
+<section id="checks" aria-labelledby="checks-h">
+  <h2 id="checks-h">How the work was checked</h2>
+  <p class="intro">The argument rests on primary sources and arithmetic that anyone can re-run. Before publication it was tested for the ways it could be wrong.</p>
+  <div class="checks">
+    <div class="check"><p class="fig">47 sources</p><p>Statutes read in the original: Act 536, Act 1147, Act 899, Act 997, Act 1135. Budget tables from the 2025 Programme-Based Budget Estimates. Named officials, dated statements.</p></div>
+    <div class="check"><p class="fig">Every figure recomputed</p><p>All shares, per-kilometre costs and payoff scenarios were reproduced from the raw cedi amounts. They reconcile to the cedi.</p></div>
+    <div class="check"><p class="fig">Three corrections</p><p>Independent stress tests by three other models, plus a source-by-source verification pass, surfaced a wrong month, a mis-rounded share and an unsourced comparator. All three were fixed before publication.</p></div>
+  </div>
+  <div class="method">
+    <h3>Method and assistance</h3>
+    <p>This project combined independent fieldwork and primary-source research with AI-assisted verification. I worked from Ghana's statutes, budget estimates and parliamentary reporting directly; Claude (Anthropic) helped reconcile the arithmetic, trace footnotes to their original sources and stress-test the argument for internal contradictions. Three further models cross-checked the finished draft for factual accuracy before publication. The thesis, the fieldwork and the editorial judgement are my own, and so are any remaining errors.</p>
+  </div>
+</section>
+
+<!-- ===================== FIELD ===================== -->
+<section id="field" class="field" aria-labelledby="field-h">
+  <h2 id="field-h">Where it started</h2>
+  <blockquote>
+    <p>Reaching communities in Asuogyaman District, where the Volta Lake divides the district in two, took two hours from Kpong to cover under twenty kilometres of separation. The health outreach I was travelling with existed on the premise that this difficulty deterred people from seeking treatment. Excursions were ended at the first rain, because the return could not be relied on afterwards.</p>
+    <cite>Field notes, Eastern Region, June 2026. From section 1.2 of the memo.</cite>
+  </blockquote>
+</section>
+
+<!-- ===================== CLOSE ===================== -->
+<section id="read" class="close" aria-labelledby="read-h">
+  <h2 id="read-h">Read the whole argument</h2>
+  <p>The full memo runs six sections plus limitations, an annex on the 2006 Auditor-General's audit that found the same pattern under the previous statute, and 47 endnotes. The web version has clickable footnotes; the PDF is the same text laid out for print.</p>
+  <div class="actions">
+    <a class="btn primary" href="ghana-roads-memo.html">Read the full memo</a>
+    <a class="btn" href="compliance-without-preservation.pdf" download>Download the PDF</a>
+  </div>
+  <p class="small">Figures are in Ghana cedis throughout because the argument concerns the erosion of a nominal cedi amount. Condition data and allocation figures are the Ministry's own; the memo's limitations section explains what that does and does not permit.</p>
+</section>
+
+<footer>
+  <span>Valen Cole, 2026</span>
+  <span><a href="/">More work</a></span>
+</footer>
+
+</div>
+
+<script>
+(function(){
+  // ---------- data (all figures verified against the memo) ----------
+  var TOTAL1 = 3244979701;
+  var fmt = function(n){ return 'GH¢' + n.toLocaleString('en-GB'); };
+  var fmtB = function(n){ return 'GH¢' + n.toFixed(2).replace(/\.?0+$/,'') + 'bn'; };
+
+  var POT1 = {
+    comply: [
+      {k:'construction', pct:45.33, amt:1470845174, name:'Road and bridge construction', d:'New construction and bridge works. Programme title in the 2025 estimates.'},
+      {k:'rehab', pct:42.08, amt:1365373611, name:'Road rehabilitation and maintenance', d:'At programme level this looks close to parity with construction. The split inside it is the point of the other question.'},
+      {k:'admin', pct:10.32, amt:334765852, name:'Management and administration', d:'Ministry and agency overheads.'},
+      {k:'safety', pct:2.28, amt:73995064, name:'Road safety and environment', d:'Safety and environmental programmes.'}
+    ],
+    preserve: [
+      {k:'construction', pct:45.33, amt:1470845174, name:'Road and bridge construction', d:'New construction and bridge works.'},
+      {k:'minor', pct:38.29, amt:1242601777, name:'Minor rehabilitation', d:'Culverts, drainage structures and minor upgrading on roads that have already deteriorated. Act 1147 defines rehabilitation as restoring a road after age, wear or damage, and expressly excludes routine and periodic maintenance from it. Corrective work, not preservation.'},
+      {k:'periodic', pct:3.30, amt:106999429, name:'Periodic maintenance', d:'Planned, cyclical work that restores a road to near-original condition before it fails: surface dressing, resealing, regravelling.'},
+      {k:'routine', pct:0.49, amt:15772405, name:'Routine maintenance', d:'Continuous preventive work: pothole patching, grading, vegetation control, drain clearing. Half a percent of the budget.'},
+      {k:'admin', pct:10.32, amt:334765852, name:'Management and administration', d:'Ministry and agency overheads.'},
+      {k:'safety', pct:2.28, amt:73995064, name:'Road safety and environment', d:'Safety and environmental programmes.'}
+    ]
+  };
+  var POT2 = {
+    comply: {
+      sub:'Revenue GH¢3.1 billion (2026). Section 31(1) floor: at least 90% to routine, periodic and emergency maintenance and rehabilitation.',
+      yr:'Source: Parliament\u2019s approval of the 2026 RMTF allocation, as reported August 2026.',
+      segs:[
+        {k:'floor', pct:90.32, amtB:2.8, name:'Allocated to maintenance, rehabilitation, emergency and safety programmes', d:'GH¢2.8bn of GH¢3.1bn revenue is 90.3%. The statutory floor is met to the decimal. Because rehabilitation sits inside the floor, nothing in this figure tells you whether any road was preserved.'},
+        {k:'outside', pct:9.68, amtB:0.3, name:'Everything else, including the 5% administrative cap', d:'Section 31(2) caps administration at 5% of revenue.'}
+      ]
+    },
+    preserve: {
+      sub:'How the Fund\u2019s money was actually applied in 2024, the most recent year with a published breakdown. GH¢4.90 billion applied against about GH¢4.8 billion received.',
+      yr:'Source: 2025 Programme-Based Budget Estimates, 2024 financial performance. The current-year row is derived from the approved allocation net of loan repayment, so it is an upper bound.',
+      segs:[
+        {k:'arrears', pct:75.66, amt:3706766080, name:'Arrears owed to contractors', d:'Interim payment certificates from earlier years, most of them for construction. The Fund is the most liquid pool available, so obligations are settled from it first.'},
+        {k:'loan', pct:9.16, amt:448825900, name:'Repaying a loan the Fund itself had taken', d:'The Fund had borrowed against future revenue. Section 23 of the 2025 Act now prohibits this.'},
+        {k:'current', pct:15.18, amt:743889444, name:'Current-year maintenance programme', d:'Roughly six cedis in every seven went to past obligations. The Ministry\u2019s own indicator says the Fund covered 45% of routine maintenance need in 2024, against a 70% target.'}
+      ]
+    }
+  };
+  var VERDICT = {
+    comply: {
+      p1:'<strong>Not tested.</strong> No statutory floor applies to the Ministry\u2019s own budget, and at programme level maintenance (42.1%) sits close to construction (45.3%).',
+      p2:'<strong>Compliant.</strong> 90.3% allocated against a 90% floor. The Fund passes the only binding test the Act sets.'
+    },
+    preserve: {
+      p1:'<strong>3.78% goes to preservation.</strong> 91% of the \u201cmaintenance\u201d programme is repair of roads that have already failed.',
+      p2:'<strong>15% to current work.</strong> The other 85% paid for the past. Small contractors doing routine maintenance had been unpaid since 2019.'
+    }
+  };
+
+  function build(colEl, legEl, detEl, segs, amtFn){
+    colEl.innerHTML=''; legEl.innerHTML=''; detEl.innerHTML='Select a segment of the column for the cedi amount and what the category means.'; detEl.classList.add('hint');
+    segs.forEach(function(s){
+      var b=document.createElement('button'); b.type='button'; b.className='seg'; b.dataset.k=s.k;
+      b.style.flex='0 0 '+s.pct+'%'; b.setAttribute('aria-pressed','false');
+      b.setAttribute('aria-label', s.name+', '+s.pct.toFixed(s.pct<10?2:1)+' percent');
+      b.addEventListener('click', function(){
+        colEl.querySelectorAll('.seg').forEach(function(x){x.setAttribute('aria-pressed','false');});
+        b.setAttribute('aria-pressed','true');
+        detEl.classList.remove('hint'); detEl.innerHTML='<span class="amt">'+amtFn(s)+'</span>'+s.d;
+      });
+      colEl.appendChild(b);
+      var li=document.createElement('li'); if(s.k==='admin'||s.k==='safety'||s.k==='outside') li.className='dim';
+      li.innerHTML='<span class="sw '+s.k+'"></span><span><span class="n">'+s.pct.toFixed(s.pct<10?2:1)+'%</span>'+s.name+'</span>';
+      legEl.appendChild(li);
+    });
+  }
+  var mode='comply';
+  function render(){
+    build(document.getElementById('col1'), document.getElementById('leg1'), document.getElementById('det1'), POT1[mode], function(s){return fmt(s.amt);});
+    var p2=POT2[mode];
+    build(document.getElementById('col2'), document.getElementById('leg2'), document.getElementById('det2'), p2.segs, function(s){return s.amtB!=null?fmtB(s.amtB):fmt(s.amt);});
+    document.getElementById('sub2').textContent=p2.sub;
+    document.getElementById('yr2').textContent=p2.yr;
+    document.getElementById('ver1').innerHTML=VERDICT[mode].p1;
+    document.getElementById('ver2').innerHTML=VERDICT[mode].p2;
+    document.getElementById('q-comply').setAttribute('aria-pressed', mode==='comply');
+    document.getElementById('q-preserve').setAttribute('aria-pressed', mode==='preserve');
+  }
+  document.getElementById('q-comply').addEventListener('click', function(){mode='comply';render();});
+  document.getElementById('q-preserve').addEventListener('click', function(){mode='preserve';render();});
+  render();
+
+  // ---------- the loop ----------
+  var STEPS=[
+    {cls:'', short:'Commit', t:'Construction is committed faster than cash', fig:'GH¢50bn', fs:'multi-year Big Push commitments',
+     b:'<p>Commitments are made on a multi-year basis at a pace unconstrained by maintenance cash flow. The Big Push covers more than 2,000 km across sixteen regions. An investigation using Right to Information requests reported 81 sole-sourced contracts worth over GH¢73bn awarded within seven months. Sole-sourcing removes the friction that ordinarily paces commitment against cash.</p>',
+     s:'Minister\u2019s statements, March 2026; The Fourth Estate investigation, March 2026.'},
+    {cls:'', short:'Certify', t:'Certified work becomes a debt, but not the Fund\u2019s', fig:'s.53', fs:'the Fund is not a contracting party',
+     b:'<p>Completed work produces interim payment certificates. These are contractual obligations against the implementing agency, not against the Fund. Section 53 makes the Fund a payment mechanism only and shields its money from court attachment. A contractor holds an enforceable claim against the agency and none against the entity holding the money.</p>',
+     s:'Road Maintenance Trust Fund Act, 2025 (Act 1147), section 53.'},
+    {cls:'arrears', short:'Compound', t:'Late payment carries interest, so arrears grow', fig:'since 2018', fs:'some certificates unpaid',
+     b:'<p>Contractors are entitled to interest on delayed payment. The Auditor-General\u2019s road audits record delayed payments feeding cost overruns through price fluctuation and interest. The Minister said in 2025 that government owed road contractors about GH¢25bn, with some certificates outstanding since 2018.</p>',
+     s:'Auditor-General performance audits for roads; Minister\u2019s statement, May 2025.'},
+    {cls:'arrears', short:'Absorb', t:'The maintenance fund settles the construction debt', fig:'75.7%', fs:'of 2024 Fund applications went to arrears',
+     b:'<p>Ring-fenced maintenance revenue is the most liquid pool available, so obligations are settled from it first. In 2024 the Fund applied GH¢3.71bn to arrears and GH¢449m to repaying its own loan. Section 57(3) of the new Act then wrote the inherited stock onto the Fund by statute, with no deadline for clearing it.</p>',
+     s:'2025 Programme-Based Budget Estimates, 2024 performance; Act 1147, s.57.'},
+    {cls:'preserve', short:'Residual', t:'Preservation gets what is left', fig:'3.78%', fs:'of the 2025 appropriation',
+     b:'<p>Routine and periodic maintenance together received GH¢122.8m in 2025, about GH¢1,303 per kilometre per year across 94,203 km. The Ministry\u2019s own indicator shows the Fund met 45% of routine maintenance need in 2024 against a 70% target. The small and medium contractors who do this work were, in the Minister\u2019s words, many of them unpaid since 2019.</p>',
+     s:'2025 Programme-Based Budget Estimates; Minister\u2019s remarks at the RMTF Board inauguration, December 2025.'},
+    {cls:'', short:'Fail', t:'Roads deteriorate past the point where cheap work helps', fig:'<2 years', fs:'to significant deterioration on a €95m road',
+     b:'<p>A 66 km reconstructed stretch of the Tarkwa\u2013Agona Nkwanta road showed significant deterioration in under two years. Nationally, 22% of the network, roughly 20,725 km, is in poor condition and needs rehabilitation or reconstruction rather than routine care.</p>',
+     s:'Ghana Highway Authority inspection report, April 2025; Minister\u2019s end-2025 condition statement.'},
+    {cls:'', short:'Rebuild', t:'Rehabilitation is booked as construction, and the loop restarts', fig:'91%', fs:'of the maintenance programme is minor rehabilitation',
+     b:'<p>Once routine and periodic work has been skipped, what remains is rehabilitation: the most expensive end of the sequence, and a construction expense. It generates new commitments, new certificates and new arrears. Every step in this loop is fully compliant with Act 1147.</p>',
+     s:'2025 Programme-Based Budget Estimates; Act 1147, ss.30, 31, 55.'}
+  ];
+  var N=STEPS.length, cx=280, cy=280, R=220, r=44;
+  var nodesG=document.getElementById('nodes'), arcsG=document.getElementById('arcs');
+  function pos(i){ var a=-Math.PI/2 + i*2*Math.PI/N; return {x:cx+R*Math.cos(a), y:cy+R*Math.sin(a), a:a}; }
+  // arcs between consecutive nodes
+  for(var i=0;i<N;i++){
+    var a0=pos(i).a, a1=pos((i+1)%N).a; if(a1<a0) a1+=2*Math.PI;
+    var gap=(r+10)/R; var s=a0+gap, e=a1-gap;
+    var p=document.createElementNS('http://www.w3.org/2000/svg','path');
+    p.setAttribute('d','M'+(cx+R*Math.cos(s))+' '+(cy+R*Math.sin(s))+' A'+R+' '+R+' 0 0 1 '+(cx+R*Math.cos(e))+' '+(cy+R*Math.sin(e)));
+    p.setAttribute('class','track'); p.setAttribute('marker-end','url(#ah)'); arcsG.appendChild(p);
+  }
+  var cur=0;
+  STEPS.forEach(function(st,i){
+    var q=pos(i);
+    var g=document.createElementNS('http://www.w3.org/2000/svg','g');
+    g.setAttribute('class','node '+st.cls); g.setAttribute('tabindex','0'); g.setAttribute('role','button');
+    g.setAttribute('aria-pressed','false'); g.setAttribute('aria-label','Step '+(i+1)+': '+st.t);
+    g.innerHTML='<circle cx="'+q.x+'" cy="'+q.y+'" r="'+r+'"/><text x="'+q.x+'" y="'+(q.y-4)+'">'+(i+1)+'</text><text class="lbl" x="'+q.x+'" y="'+(q.y+14)+'">'+st.short+'</text>';
+    g.addEventListener('click', function(){show(i);});
+    g.addEventListener('keydown', function(e){ if(e.key==='Enter'||e.key===' '){e.preventDefault();show(i);} });
+    nodesG.appendChild(g);
+  });
+  function show(i){
+    cur=i; var st=STEPS[i];
+    nodesG.querySelectorAll('.node').forEach(function(n,j){n.setAttribute('aria-pressed', j===i?'true':'false');});
+    document.getElementById('step-k').textContent='Step '+(i+1)+' of '+N;
+    document.getElementById('step-h').textContent=st.t;
+    document.getElementById('step-fig').innerHTML=st.fig+'<small>'+st.fs+'</small>';
+    document.getElementById('step-body').innerHTML=st.b;
+    document.getElementById('step-src').textContent=st.s;
+  }
+  document.getElementById('prev').addEventListener('click', function(){show((cur+N-1)%N);});
+  document.getElementById('next').addEventListener('click', function(){show((cur+1)%N);});
+  show(0);
+})();
+</script>
+</body>
+</html>

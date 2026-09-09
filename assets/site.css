@@ -1,0 +1,145 @@
+/* Shared shell — root, projects, writing.
+   Interiors (the Ghana pages, the demo) carry their own themes on purpose;
+   what stays constant is this top bar, the URL scheme, and the metadata. */
+
+:root {
+  --bg: #fafaf7;
+  --bg-alt: #f2f1ec;
+  --bg-card: #ffffff;
+  --text: #1c1c1a;
+  --text-sub: #4d4b46;
+  --text-muted: #8c8880;
+  --accent: #2c5f41;
+  --accent-bg: rgba(44, 95, 65, 0.06);
+  --accent-border: rgba(44, 95, 65, 0.18);
+  --warm: #b5694d;
+  --border: rgba(28, 28, 26, 0.09);
+  --border-strong: rgba(28, 28, 26, 0.15);
+  --serif: 'Source Serif 4', Georgia, serif;
+  --sans: 'Outfit', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --mono: 'JetBrains Mono', ui-monospace, Menlo, monospace;
+  --radius: 10px;
+  --max-w: 940px;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  font-family: var(--sans);
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+::selection { background: var(--accent); color: #fff; }
+img { max-width: 100%; }
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+
+.wrap { max-width: var(--max-w); margin: 0 auto; padding: 0 32px; }
+
+/* ---- top bar: the one thing every page keeps ---- */
+.topbar {
+  position: sticky; top: 0; z-index: 100;
+  background: rgba(250, 250, 247, 0.92);
+  backdrop-filter: blur(14px);
+  border-bottom: 1px solid var(--border);
+}
+.topbar-inner {
+  max-width: var(--max-w); margin: 0 auto; padding: 0 32px;
+  height: 58px; display: flex; align-items: center; justify-content: space-between; gap: 20px;
+}
+.tb-name {
+  font-family: var(--serif); font-size: 1.05rem; font-weight: 700;
+  letter-spacing: -0.02em; color: var(--text); text-decoration: none; white-space: nowrap;
+}
+.tb-links { display: flex; gap: 22px; list-style: none; }
+.tb-links a {
+  font-size: 0.85rem; color: var(--text-sub); text-decoration: none;
+  padding-bottom: 2px; border-bottom: 1.5px solid transparent; transition: color .2s, border-color .2s;
+}
+.tb-links a:hover, .tb-links a[aria-current="page"] { color: var(--accent); border-bottom-color: var(--accent); }
+
+/* ---- page head ---- */
+.page-head { padding: 72px 0 40px; }
+.eyebrow {
+  font-family: var(--mono); font-size: 0.66rem; color: var(--accent);
+  letter-spacing: 0.14em; text-transform: uppercase; margin-bottom: 18px;
+}
+.page-head h1 {
+  font-family: var(--serif); font-size: clamp(2.1rem, 4.6vw, 3.1rem); font-weight: 700;
+  line-height: 1.12; letter-spacing: -0.025em; max-width: 20ch; margin-bottom: 20px;
+}
+.page-head h1 em { font-style: italic; font-weight: 400; color: var(--accent); }
+.lede { font-size: 1.08rem; font-weight: 300; color: var(--text-sub); max-width: 58ch; line-height: 1.7; }
+
+/* ---- sections ---- */
+section { padding: 52px 0; border-top: 1px solid var(--border); }
+.section-label {
+  font-family: var(--mono); font-size: 0.65rem; color: var(--text-muted);
+  letter-spacing: 0.12em; text-transform: uppercase; margin-bottom: 26px;
+}
+h2.section-title { font-family: var(--serif); font-size: 1.5rem; font-weight: 600; margin-bottom: 8px; }
+
+/* ---- entry list (writing + projects) ---- */
+.entries { display: flex; flex-direction: column; }
+.entry {
+  display: block; text-decoration: none; color: inherit;
+  padding: 26px 0; border-top: 1px solid var(--border);
+  transition: background .2s;
+}
+.entry:first-child { border-top: none; }
+.entry:hover { background: var(--accent-bg); box-shadow: 0 0 0 24px var(--accent-bg); }
+.entry-meta {
+  font-family: var(--mono); font-size: 0.63rem; color: var(--accent);
+  letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 10px;
+  display: flex; gap: 14px; flex-wrap: wrap;
+}
+.entry-meta .dim { color: var(--text-muted); }
+.entry h3 {
+  font-family: var(--serif); font-size: 1.32rem; font-weight: 600;
+  line-height: 1.25; letter-spacing: -0.015em; margin-bottom: 8px; max-width: 34ch;
+}
+.entry:hover h3 { color: var(--accent); }
+.entry p { font-size: 0.94rem; font-weight: 300; color: var(--text-sub); line-height: 1.65; max-width: 62ch; }
+.entry .more {
+  display: inline-block; margin-top: 12px; font-size: 0.82rem; color: var(--accent);
+  font-weight: 500;
+}
+
+.tags { display: flex; flex-wrap: wrap; gap: 7px; margin-top: 14px; }
+.tag {
+  font-family: var(--mono); font-size: 0.62rem; padding: 4px 9px; border-radius: 5px;
+  background: var(--accent-bg); color: var(--text-sub); border: 1px solid var(--accent-border);
+}
+
+/* ---- prose (project write-ups) ---- */
+.prose { max-width: 64ch; }
+.prose p { font-size: 1rem; font-weight: 300; color: var(--text-sub); line-height: 1.75; margin-bottom: 16px; }
+.prose h3 { font-family: var(--serif); font-size: 1.2rem; font-weight: 600; color: var(--text); margin: 32px 0 10px; }
+.prose strong { font-weight: 600; color: var(--text); }
+.prose a { color: var(--accent); }
+
+.shots { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin: 32px 0 0; }
+.shot { border: 1px solid var(--border); border-radius: var(--radius); overflow: hidden; background: var(--bg-card); }
+.shot img { width: 100%; height: auto; display: block; }
+.shot figcaption {
+  padding: 11px 15px; font-family: var(--mono); font-size: 0.61rem;
+  color: var(--text-muted); letter-spacing: 0.04em; border-top: 1px solid var(--border);
+}
+.shot.narrow { max-width: 260px; }
+
+/* ---- footer ---- */
+footer { padding: 30px 0 44px; border-top: 1px solid var(--border); margin-top: 20px; }
+.footer-inner { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px; }
+footer p, footer a { font-size: 0.74rem; color: var(--text-muted); }
+.footer-links { display: flex; gap: 18px; list-style: none; }
+.footer-links a { text-decoration: none; transition: color .2s; }
+.footer-links a:hover { color: var(--accent); }
+
+@media (max-width: 700px) {
+  .wrap, .topbar-inner { padding-left: 20px; padding-right: 20px; }
+  .page-head { padding: 48px 0 32px; }
+  .shots { grid-template-columns: 1fr; }
+  .tb-links { gap: 16px; }
+  .entry:hover { box-shadow: none; }
+}

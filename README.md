@@ -4,43 +4,55 @@ Source for the site deployed at **operationsguy.netlify.app**.
 
 ## How deploys work
 
-Netlify is linked to this repo. **Any push to `main` triggers a deploy.** There is no
-build step — Netlify publishes the repo root as-is.
+Netlify is linked to this repo. **Any push to `main` triggers a deploy.** No build step —
+Netlify publishes the repo root as-is.
 
 - Build command: *(empty)*
 - Publish directory: `.`
-- Config lives in `netlify.toml`
+- Config: `netlify.toml`
 
 ## Structure
 
 ```
-index.html      Landing page
-netlify.toml    Deploy + header config
+index.html                     Root — Valen Cole, indexes everything below
+assets/site.css                Shared shell: tokens, top bar, entry lists, prose
+assets/aviva/*.jpg             Aviva Manual screenshots
+
+writing/index.html             Writing index
+writing/ghana-roads/           Compliance Without Preservation
+  index.html                     Interactive overview (own theme)
+  ghana-roads-memo.html          Full memo, working footnotes
+  compliance-without-preservation.pdf
+
+projects/index.html            Projects index
+projects/aviva-manual/         Aviva Manual write-up
+
+ops/index.html                 Your Ops Guy consultancy page — LIVE BUT UNLINKED.
+                               Not in any nav; noindex. Send the URL directly.
+demos/jerry/                   charity: water game concept — UNLISTED.
+                               Not in any nav; noindex + robots.txt.
+
+robots.txt                     Disallows /demos/ and /ops/
+sitemap.xml                    Public pages only
 ```
 
-### Planned structure
+### Rules for adding pages
 
-```
-/                       Valen Cole — index into everything below
-/projects/              Index of built things
-/projects/<slug>/       Individual projects
-/writing/               Index of analytical writing
-/writing/<slug>/        Individual pieces
-/ops/                   Your Ops Guy consultancy page (live, unlinked from nav)
-```
-
-Rule for new pages: interiors can look however they need to (a game should look like a
-game, a memo like a document), but every page keeps the shared top bar, the URL scheme
-above, and consistent `<title>` / `og:` metadata.
+1. Everything gets the shared top bar and links back to `/`.
+2. URL scheme: section index at the folder, items nested under it.
+3. Consistent `<title>` (`Thing — Valen Cole`) and `og:` tags.
+4. Interiors may look however they need to — a game looks like a game, a memo like a
+   document. The shell is what stays constant, not the theme.
+5. Anything unlisted needs `<meta name="robots" content="noindex, nofollow">` **and** a
+   `robots.txt` entry, and must not be linked from any index.
 
 ## Design tokens
 
-Defined in `:root` of each page. Keep these consistent across the shared shell.
+Defined in `assets/site.css`. The Ghana pages and the demo carry their own palettes.
 
 | Token | Value | Use |
 |---|---|---|
 | `--bg` | `#fafaf7` | page background |
-| `--bg-alt` | `#f2f1ec` | alternate bands |
 | `--bg-card` | `#ffffff` | cards |
 | `--text` | `#1c1c1a` | body text |
 | `--text-sub` | `#4d4b46` | secondary text |
@@ -53,5 +65,7 @@ Defined in `:root` of each page. Keep these consistent across the shared shell.
 
 ## Third-party
 
-- Fonts: Google Fonts (Source Serif 4, Outfit, JetBrains Mono)
-- Contact form: Formspree — endpoint `f/mpqodngj`
+- Fonts: Google Fonts (Source Serif 4, Outfit, JetBrains Mono; Overpass on the Ghana
+  pages; Poppins on the demo)
+- three.js r128 via cdnjs — the demo only
+- Formspree (`f/mpqodngj`) — the `/ops/` contact form only

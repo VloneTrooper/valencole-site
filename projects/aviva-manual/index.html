@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<title>Aviva Manual — Valen Cole</title>
+<meta name="description" content="A searchable, mobile-first employee manual built for a medical spa.">
+<meta property="og:title" content="Aviva Manual — Valen Cole">
+<meta property="og:description" content="A searchable, mobile-first employee manual built for a medical spa.">
+<meta property="og:type" content="article">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,300;0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&family=Outfit:wght@300;400;500;600&family=JetBrains+Mono:wght@400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/site.css">
+</head>
+<body>
+
+<nav class="topbar">
+  <div class="topbar-inner">
+    <a href="/" class="tb-name">Valen Cole</a>
+    <ul class="tb-links">
+      <li><a href="/writing/">Writing</a></li>
+      <li><a href="/projects/" aria-current="page">Projects</a></li>
+      <li><a href="/#contact">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+<header class="page-head">
+  <div class="wrap">
+    <div class="eyebrow">Internal tool &middot; 2026 &middot; In daily use</div>
+    <h1>Aviva Manual</h1>
+    <p class="lede">A searchable, mobile-first employee manual for a medical spa, replacing a set of scattered PDFs, group chat messages and a printed binder.</p>
+  </div>
+</header>
+
+<section>
+  <div class="wrap">
+    <div class="prose">
+      <h3>The problem</h3>
+      <p>The spa's policies existed, but they weren't anywhere useful. Some were in PDFs on a shared drive, some had only ever been said out loud in a group chat, and the printed binder was accurate as of a while ago. The practical result was that staff asked a manager instead of looking anything up, and the manager answered the same handful of questions every week.</p>
+
+      <h3>What I built</h3>
+      <p>One web app holding the whole manual, indexed for fuzzy search, organized into chapters with role-based navigation so an esthetician and a front-desk hire don't wade through each other's material. Password protected, on the spa's own domain, styled to match their branding so it reads as theirs rather than as a generic tool.</p>
+
+      <h3>The constraint that shaped it</h3>
+      <p>The person using this is not sitting at a desk. They're between clients, on their feet, with about ten seconds and a phone in one hand. That ruled out anything requiring navigation by browsing — you have to be able to type three words and land on the paragraph you need. Search came first and the layout was built around it, rather than the other way around.</p>
+      <p>It's in daily use. The measure that mattered to me was whether the manager kept getting asked the same questions, and she doesn't.</p>
+    </div>
+
+    <div class="shots">
+      <figure class="shot">
+        <img src="/assets/aviva/home.jpg" alt="Aviva Manual home page with branded interface and role-based navigation" loading="lazy">
+        <figcaption>Home &mdash; branded landing with role-based navigation</figcaption>
+      </figure>
+      <figure class="shot">
+        <img src="/assets/aviva/sections.jpg" alt="Jump-to-section navigation showing the chapter structure" loading="lazy">
+        <figcaption>Jump to section &mdash; chapters and sub-sections</figcaption>
+      </figure>
+      <figure class="shot">
+        <img src="/assets/aviva/search.jpg" alt="Fuzzy search results with matched terms highlighted" loading="lazy">
+        <figcaption>Fuzzy search &mdash; highlights matches across all sections</figcaption>
+      </figure>
+      <figure class="shot narrow">
+        <img src="/assets/aviva/mobile.jpg" alt="The manual rendered on a phone screen" loading="lazy">
+        <figcaption>Mobile &mdash; the way it's actually used</figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="footer-inner">
+      <p>&copy; 2026 Valen Cole</p>
+      <ul class="footer-links">
+        <li><a href="/projects/">All projects</a></li>
+        <li><a href="/">Home</a></li>
+        <li><a href="mailto:valen.a.d.c@gmail.com">Email</a></li>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
