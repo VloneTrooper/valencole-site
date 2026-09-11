@@ -14,7 +14,7 @@
 
 Ghana's classified road network is 94,203 km: 14,948 km trunk, 28,480 km urban, and 50,775 km feeder.[^1] The Ministry of Roads and Highways reports network condition as a good / fair / poor mix, and its own figures show 47% good in 2023 and 47% in 2024, against a 2025 target of 48% rising to 60% by 2027.[^2] The Minister for Roads and Highways reported 44% of validated roads in good condition at the close of 2025.[^3] That reads as a decline against the series above, but the previous Minister gave the same 44% good figure in September 2024, against a differently constituted series.[^5] The two may describe the same measurement rather than a fall, and public sources do not settle which.
 
-Against a sector policy objective of 70% good / 20% fair / 10% poor,[^4] roughly one fifth of the network has sat in poor condition for the better part of a decade. On 94,203 km, a 21% poor share is approximately **19,800 km requiring rehabilitation or reconstruction**, not routine care.
+Ghana's sector objective is 70% good / 20% fair / 10% poor.[^4] Against that objective, the Ministry's own figures put 21% of the network in poor condition in 2023 and again in 2024, the only years for which actuals are published. On 94,203 km, a 21% poor share is approximately **19,800 km requiring rehabilitation or reconstruction**, not routine care.
 
 ### 1.1 What these figures can and cannot support
 
@@ -36,7 +36,7 @@ Two observations from travel in Ghana in June 2026.
 
 The journey from Kpong to Elmina — approximately 245 km, taking a northern route via Akropong, Aburi and Nsawam specifically to avoid construction-related congestion on the direct corridor — took over nine hours on roads that avoided metropolitan traffic almost entirely. Traffic routinely crossed into oncoming lanes to pass ditches and potholes that could not be driven through.
 
-Separately, reaching communities in Asuogyaman District, Eastern Region — where the Volta Lake divides the district in two, and where the district assembly's own budget records that the bad condition of roads negatively affects transportation[^9] — took two hours from Kpong to cover under twenty kilometres of separation. The health outreach I was travelling with existed on the premise that this difficulty deterred people from seeking treatment. The clinic at Kpong was the most capable facility we saw; the outposts further out held little beyond basic supplies. Excursions were ended at the first rain, because the return could not be relied on afterwards.
+Separately, reaching communities in Asuogyaman District, Eastern Region — where the Volta Lake divides the district in two, and where the district assembly's own budget records that poor road conditions negatively affect business generally and the transport of agricultural produce in particular[^9] — took two hours from Kpong to cover under twenty kilometres of separation. The health outreach I was travelling with existed on the premise that this difficulty deterred people from seeking treatment. The clinic at Kpong was the most capable facility we saw; the outposts further out held little beyond basic supplies. Excursions were ended at the first rain, because the return could not be relied on afterwards.
 
 Asuogyaman records roughly 185.9 km of district road network, of which 130.2 km is tarred and 55.7 km untarred.[^9] At 30% untarred it is better provisioned than the national average of 73%.[^47]
 
@@ -68,7 +68,7 @@ Collection runs from the pump through oil marketing companies to the Ghana Reven
 
 **The rate is specific, not ad valorem.** It is a fixed amount per litre rather than a percentage of pump price, so its real value erodes with inflation between legislative amendments and its revenue grows only with fuel volume.
 
-**It has no mechanism for adjusting itself.** The levy stood at roughly GH¢0.07 per litre from redenomination in 2007 until 2015; moved to GH¢0.40 when the Energy Sector Levies Act, 2015 (Act 899) consolidated it into the ESLA framework; and moved to GH¢0.48 under the ESLA (Amendment) Act, 2019 (Act 997), assented 19 August 2019.[^18] It has moved twice in nineteen years, on both occasions as part of a wider legislative exercise rather than as a scheduled adjustment. Ghana's consumer price index stood at 278.45 in 2019 and 855.78 in 2025.[^19]
+**It has no mechanism for adjusting itself.** The levy stood at roughly GH¢0.06–0.07 per litre from redenomination in 2007 until 2015; moved to GH¢0.40 when the Energy Sector Levies Act, 2015 (Act 899) consolidated it into the ESLA framework; and moved to GH¢0.48 under the ESLA (Amendment) Act, 2019 (Act 997), assented 19 August 2019.[^18] It has moved twice in nineteen years, on both occasions as part of a wider legislative exercise rather than as a scheduled adjustment. Ghana's consumer price index stood at 278.45 in 2019 and 855.78 in 2025.[^19]
 
 The Ministry of Finance identified the mechanism itself. Its 2019 report on energy sector levies records the Road Fund Levy being increased that year to correct for the loss in value resulting from consumer price inflation without commensurate increases in the fixed specific-type levies.[^20] It acted once and has not acted since.
 
@@ -111,7 +111,7 @@ Note that the Minister determines by Gazette which activities fall in each categ
 | Current-year maintenance programme | 743,889,444 | 15.2% |
 | **Total** | **4,899,481,424** | |
 
-Applications exceeded receipts. The Fund had borrowed against future revenue, and roughly six cedis in every seven went to servicing past obligations. Unpaid invoices held at the Secretariat at end-2024 stood at GH¢5.66bn — more than a full year of revenue.
+The Fund had borrowed against future revenue: GH¢448.8m of the year's applications went to repaying a loan it had taken out. Roughly six cedis in every seven went to servicing past obligations. Unpaid invoices held at the Secretariat at end-2024 stood at GH¢5.66bn — more than a full year of revenue.
 
 The Ministry's own performance indicator confirms the consequence. Against a target of covering 70% of routine maintenance needs from the Fund, actual coverage was **40% in 2023 and 45% in 2024**. The figures for periodic maintenance are identical.[^29]
 
@@ -120,6 +120,8 @@ The new fund inherited the position by statute. Section 57(1) transfers the righ
 Parliament approved **GH¢3.6bn** for the RMTF, of which **GH¢2.8bn** is allocated to maintenance, rehabilitation, emergency and safety programmes. Against revenue performance of **GH¢3.1bn**, outstanding contractor liabilities stood at **GH¢10.5bn** as at end-June 2026 — approximately **3.4 times annual revenue**.[^30]
 
 **GH¢2.8bn is 90.3% of GH¢3.1bn.** Section 31(1) requires the Board to allocate at least ninety per cent of annual revenue exclusively to routine, periodic and emergency maintenance *and rehabilitation*. The floor is being met to the decimal.
+
+**A note on denominators.** The two limbs of section 31 are measured against different bases. Section 31(1) sets the maintenance floor as a proportion of annual revenue; section 31(2) caps administrative expenditure as a proportion of total disbursements. Revenue and disbursements need not be equal in a given year, so the two constraints are not additive and the residual available for other purposes cannot be derived exactly from either figure alone.
 
 Because rehabilitation sits inside it, a fund could allocate the entire protected ninety per cent to repairing failed roads, nothing to preserving sound ones, and remain fully compliant. Whether the RMTF has done so cannot be determined: **the split inside that GH¢2.8bn is not published.** The Act requires reporting against the ninety per cent aggregate and not against the four categories it separately defines in section 30(1), so the statutory test does not generate the number that would answer the question. That is a design feature of the floor, not an omission in the reporting.
 
@@ -187,13 +189,15 @@ This is not a new deliverable. Section 57(3) requires the Fund to honour verifie
 
 The Act is capable of setting deadlines. Section 35(4) fixes a hard 30 September date for submission of Annual Maintenance Plans; section 28(3) gives the Auditor-General six months to audit. The provision governing GH¢10.5bn is open-ended.
 
-Against GH¢3.1bn annual revenue, net of the 5% administrative cap in section 31(2):
+Against GH¢3.1bn annual revenue, less an allowance for administration:
 
 | Horizon | Annual arrears payment | Share of revenue | Remainder for current work |
 |---|---:|---:|---:|
 | 5 years | GH¢2.10bn | 68% | ~GH¢850m |
 | 7 years | GH¢1.50bn | 48% | ~GH¢1.45bn |
 | 10 years | GH¢1.05bn | 34% | ~GH¢1.90bn |
+
+The remainder column applies the section 31(2) cap to revenue rather than to disbursements, which is not the base the Act uses; see the note on denominators in section 2.4. At this scale the approximation does not affect the comparison that follows.
 
 The 2024 current-year maintenance programme was approximately GH¢744m. **Even a five-year clearance schedule leaves more for current work than was actually spent last year.** Affordability is not the constraint. The absence of an allocation rule is.
 
@@ -268,7 +272,7 @@ The fix is not a third institution. It is a published schedule, one clause, an i
 
 ## Limitations
 
-**Sources are overwhelmingly governmental.** Condition data, allocation figures and coverage indicators come from the Ministry of Roads and Highways. Arrears figures come from ministerial statements and parliamentary committee reporting.
+**Sources are overwhelmingly governmental.** Condition data, allocation figures and coverage indicators come from the Ministry of Roads and Highways. Arrears figures come from ministerial statements and parliamentary reporting.
 
 **No recent independent assessment exists.** The most recent independent, non-governmental assessment of the Fund's finances is the Auditor-General's performance audit of July 2006. The Auditor-General's 2025 report on the management of the District Assemblies Common Fund and other statutory funds does not substantively cover the Fund, so no independent verification of the 2025 position was available. This is itself a finding about fiscal transparency in the sector.
 
@@ -290,7 +294,7 @@ The fix is not a third institution. It is a published schedule, one clause, an i
 
 ## Method and assistance
 
-This memo is built on primary sources — Ghana's statutes, the Ministry of Roads and Highways' budget estimates, parliamentary committee reporting, and the Auditor-General's 2006 performance audit — together with fieldwork in Eastern Region in June 2026.
+This memo is built on primary sources — Ghana's statutes, the Ministry of Roads and Highways' budget estimates, parliamentary reporting, and the Auditor-General's 2006 performance audit — together with fieldwork in Eastern Region in June 2026.
 
 Claude (Anthropic) was used throughout as a research and drafting collaborator: locating and reading primary documents, working through statutory text, checking arithmetic, and producing draft prose to my direction. Three further models cross-checked the finished draft for factual accuracy before publication.
 
@@ -344,9 +348,9 @@ Roughly half of need met in 2003. Roughly half met in 2024. Two decades, two sta
 
 [^8]: Act 1147, s.48; compare s.40.
 
-[^9]: Asuogyaman District Assembly, Composite Budget, road network and condition narrative. Hosted at mofep.gov.gh.
+[^9]: Asuogyaman District Assembly, *Composite Budget for 2024–2027: Programme-Based Budget Estimates for 2024*, p. 7 ("Road Network") and p. 13 ("Water Supply"). https://mofep.gov.gh/sites/default/files/composite-budget/2024/ER/Asuogyaman_.pdf
 
-[^10]: Auditor-General, *Performance Audit Report on the Funding of the Ghana Road Fund*, 3 July 2006, §§1.1, 2.1; Road Fund Act, 1997 (Act 536). https://ir.parliament.gh/bitstream/handle/123456789/2067/ACT%20536%20Rev%20Ed.pdf
+[^10]: Auditor-General, *Performance Audit Report of the Auditor-General on the Funding of the Ghana Road Fund* (Edward Dua Agyeman, Auditor-General), transmitted to the Speaker of Parliament 3 July 2006, Ref. AG.01/109, §1.1 "Reasons for the audit" (para. 1, p. 1) and §2.1 "Historical background" (paras. 16–17, p. 5). The audit attributes the maintenance shortfall to network expansion under the Economic Recovery Programme and records the Fund as established by the Road Fund Act, 1997; it does not address the 1985 legislative instrument. Road Fund Act, 1997 (Act 536). https://ir.parliament.gh/bitstream/handle/123456789/2067/ACT%20536%20Rev%20Ed.pdf
 
 [^11]: Act 1147, ss.1, 56(1). Date of assent and *Gazette* notification: 14 August 2025.
 
@@ -362,11 +366,11 @@ Roughly half of need met in 2003. Roughly half met in 2024. Two decades, two sta
 
 [^17]: Ministry of Finance, *Annual Report on the Management of Energy Sector Levies*. https://mofep.gov.gh/sites/default/files/reports/economic/Annual%20Report%20on%20the%20management%20of%20Energy%20sector%20levies.pdf
 
-[^18]: Energy Sector Levies Act, 2015 (Act 899), First Schedule; ESLA (Amendment) Act, 2019 (Act 997), assented 19 August 2019; Act 1135 (2025), which repealed Acts 899, 946, 997 and 1064 and restated the Road Fund Levy at GHp48 per litre.
+[^18]: Energy Sector Levies Act, 2015 (Act 899), First Schedule; ESLA (Amendment) Act, 2019 (Act 997), assented 19 August 2019; Act 1135 (2025), which repealed Acts 899, 946, 997 and 1064 and restated the Road Fund Levy at GHp48 per litre. Sources differ on the pre-2015 rate: contemporary reporting gives GH¢0.07 per litre immediately before Act 899, while the Auditor-General's 2006 performance audit records the fuel levy at ¢600 per litre at the time of the audit in March 2005 (para. 24, p. 7), which converts to GH¢0.06 on redenomination. The same report records increases from ¢150 to ¢230 per litre in 2001 and from ¢230 to ¢400 in 2003 (para. 48, pp. 17–18), so at least one further adjustment occurred between 2003 and 2005. Public sources do not settle the position between redenomination in 2007 and 2015. The distinction does not affect the argument, which turns on the levy's failure to move across nineteen years rather than on its precise starting level.
 
 [^19]: World Bank, World Development Indicators, indicator FP.CPI.TOTL, "Consumer price index (2010 = 100)," Ghana: 278.45 (2019) and 855.78 (2025). Annual-average series, not period-end. Ghana Statistical Service reports annual average inflation of 14.6% for 2025 and 22.9% for 2024, consistent with the World Bank series; the December 2025 year-on-year point rate was 5.4%. GSS's own domestic series was rebased to 2021=100 and reports a materially lower index level; it tracks the same inflation on a different base and is not directly comparable to the 2010=100 figures used here.
 
-[^20]: Ministry of Finance, *Annual Report on the Management of Energy Sector Levies, 2019*.
+[^20]: Ministry of Finance, *Annual Report on the Management of the Energy Sector Levies and Accounts for the Year 2019*. https://mofep.gov.gh/sites/default/files/reports/economic/2019_Annual_ELSA_Report.pdf
 
 [^21]: "Ghana: Road Tolls Abolished," allAfrica / Ghanaian Times, 22 November 2021. https://allafrica.com/stories/202111220635.html
 
@@ -374,7 +378,7 @@ Roughly half of need met in 2003. Roughly half met in 2024. Two decades, two sta
 
 [^23]: "Reintroduction of road and bridge tolls; Parliament approves 20-year Private Partnership," GBC Ghana Online, 2026. https://www.gbcghanaonline.com/news/road-and-bridge-tolls/2026/
 
-[^24]: Ministry of Finance, *Annual Report on the Management of Energy Sector Levies*, 2016 and 2019 editions.
+[^24]: Ministry of Finance, *Annual Report on the Management of Energy Sector Levies*, 2016 and 2019 editions. 2019 edition: https://mofep.gov.gh/sites/default/files/reports/economic/2019_Annual_ELSA_Report.pdf
 
 [^25]: MoRH, *2025 PBB Estimates*, appropriation summary and 2024 expenditure performance tables. The 2024 ministry total of GH¢4,613,561,786 and the Road Fund approved allocation of GH¢1,192,715,344 are listed as separate rows.
 
@@ -414,7 +418,7 @@ Roughly half of need met in 2003. Roughly half met in 2024. Two decades, two sta
 
 [^43]: World Bank, *Implementation Status & Results Report*, Transport Sector Improvement Project, February 2024. https://documents1.worldbank.org/curated/en/099021124080510552/pdf/P15102612dbb730921be6c189d0eafc0235.pdf ; MoRH, *2025 PBB Estimates*, Summary of Key Achievements in 2024.
 
-[^44]: Auditor-General, *Performance Audit Report on the Funding of the Ghana Road Fund*, 3 July 2006. All annex figures in this section are drawn from that report unless otherwise noted.
+[^44]: Auditor-General, *Performance Audit Report of the Auditor-General on the Funding of the Ghana Road Fund* (Edward Dua Agyeman, Auditor-General), transmitted to the Speaker of Parliament 3 July 2006, Ref. AG.01/109. The ninth performance audit report issued under article 187(5) of the 1992 Constitution and section 13(e) of the Audit Service Act, 2000 (Act 584); the audit covers 2000–2004, with fieldwork to March 2005. Printed by The Advent Press, Accra. No online copy could be located; page and paragraph references are to the printed report. Annex figures in this section are drawn from that report as follows: the statement of the mechanism, §3.1, para. 39 (p. 14); the 2000–2004 revenue and maintenance-expenditure summary and the observation on controlled budgeting, Table 1 and paras. 40–41 (pp. 14–15); the October 2003 coverage statement by the Director of the Road Fund, para. 37 (p. 13); the per-billion-cedi output series, paras. 42–46 with Figures 3 and 4 (pp. 15–16) and Appendix A; the conclusion on over-dependence on the fuel levy, para. 81 (p. 28); the tolling proposals of April 2001 and November 2003 and the Ministry's legal section confirming them ready but on hold, paras. 63–68 (pp. 22–24) and para. 92 (p. 33); and the exclusion of road maintenance from the audit's scope, para. 7 (p. 3). One internal discrepancy: Table 1 gives the five-year deficit as ¢127.82bn while the accompanying text at para. 41 gives ¢127.87bn. This memo uses the table figure.
 
 [^45]: World Bank Report No. 24248. https://documents1.worldbank.org/curated/en/557961468249626582/pdf/multi0page.pdf
 

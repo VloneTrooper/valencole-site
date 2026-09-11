@@ -29,7 +29,7 @@ NOTE_TO_WORKS = {
     15: ['act1135', 'taxlawgh'],
     16: ['esl_amend_bill2026'],
     17: ['mof_esl_report'],
-    18: ['act899', 'act997', 'act1135'],
+    18: ['act899', 'act997', 'act1135', 'ag2006'],  # + AG 2006 on the pre-2015 rate
     19: ['wb_wdi', 'gss'],
     20: ['mof_esl_report'],                    # 2019 edition of the same series
     21: ['allafrica_tolls'],
