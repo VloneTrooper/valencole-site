@@ -14,7 +14,7 @@
 
 Ghana's classified road network is 94,203 km: 14,948 km trunk, 28,480 km urban, and 50,775 km feeder.[^1] The Ministry of Roads and Highways reports network condition as a good / fair / poor mix, and its own figures show 47% good in 2023 and 47% in 2024, against a 2025 target of 48% rising to 60% by 2027.[^2] The Minister for Roads and Highways reported 44% of validated roads in good condition at the close of 2025.[^3] That reads as a decline against the series above, but the previous Minister gave the same 44% good figure in September 2024, against a differently constituted series.[^5] The two may describe the same measurement rather than a fall, and public sources do not settle which.
 
-Ghana's sector objective is 70% good / 20% fair / 10% poor.[^4] Against that objective, the Ministry's own figures put 21% of the network in poor condition in 2023 and again in 2024, the only years for which actuals are published. On 94,203 km, a 21% poor share is approximately **19,800 km requiring rehabilitation or reconstruction**, not routine care.
+Ghana's sector objective, set out in the rolling road sector Strategic Plans, is 70% good / 20% fair / 10% poor.[^4] Against that objective, the Ministry's own figures put 21% of the network in poor condition in 2023 and again in 2024, the only years for which actuals are published. On 94,203 km, a 21% poor share is approximately **19,800 km requiring rehabilitation or reconstruction**, not routine care.
 
 ### 1.1 What these figures can and cannot support
 
@@ -153,7 +153,7 @@ Three qualifications, stated plainly.
 
 **Causal direction is not proven.** This memo argues that commitments crowd out preservation. An alternative reading is that preservation is underfunded because it is politically invisible, and that arrears are a symptom rather than the mechanism. The available evidence is consistent with both, and public sources do not separate them.
 
-**There is a second arrears channel.** Donor suspension under the debt restructuring stalled eleven major road projects independently of the domestic fund.[^38] Cocoa roads, financed through COCOBOD and accounting for around 66.8% of its quasi-fiscal expenditures, constitute a third channel this memo does not cover.[^39]
+**There is a second arrears channel.** Donor suspension under the debt restructuring stalled eleven major road projects independently of the domestic fund.[^38] Cocoa roads, financed through COCOBOD and accounting for around 66.8% of total COCOBOD debt, constitute a third channel this memo does not cover.[^39]
 
 ---
 
@@ -173,7 +173,7 @@ Treating 45% as an approximation of overall coverage, full funding of routine an
 
 **The asymmetry is the point.** The incremental annual cost of fully funding preventive maintenance across Ghana's entire 94,203 km network is smaller than the cost of a single Big Push corridor lot.
 
-**The backlog is not costed here, deliberately.** Rehabilitating roughly 19,800 km of poor-condition road is a separate and far larger problem, and per-kilometre costs in the current market vary by more than an order of magnitude with scope — reported Big Push awards range from roughly GH¢31m/km for a rural upgrade to GH¢80m/km for a dualisation involving bridges and interchanges.[^40] No credible aggregate can be produced from that spread without a scope-matched unit cost, which is not publicly available. The point stands regardless: the backlog exists because the recurrent gap was never closed, and closing the recurrent gap is cheap relative to the cost of continuing to rebuild.
+**The backlog is not costed here, deliberately.** Rehabilitating roughly 19,800 km of poor-condition road is a separate and far larger problem, and per-kilometre costs in the current market vary roughly six-fold with scope — reported Big Push awards range from about GH¢25m/km to about GH¢154m/km.[^40] No credible aggregate can be produced from that spread without a scope-matched unit cost, which is not publicly available. The point stands regardless: the backlog exists because the recurrent gap was never closed, and closing the recurrent gap is cheap relative to the cost of continuing to rebuild.
 
 ---
 
@@ -235,7 +235,7 @@ Performance-based contracting transfers deterioration risk to the contractor. Pa
 
 Ghana has already legislated this. Section 3(d) requires the Fund to prioritise performance-based contracts and link disbursement to independently verified performance outputs. Section 36(1)(b) specifies the metrics — pavement roughness, response time to defects, traffic disruption, durability. Section 36(2)(c) requires disbursements verified by independent engineers or auditors.
 
-Ghana has also already piloted it. The World Bank and EU-supported Transport Sector Improvement Project ran six output- and performance-based road contracts across approximately 1,052 km of trunk and feeder roads in the Upper West, Bono East and Northern regions, with 752 km of rehabilitation completed by December 2023 and the maintenance phase underway.[^43]
+Ghana has also already piloted it. The World Bank and EU-supported Transport Sector Improvement Project ran six output- and performance-based road contracts across approximately 1,050 km of trunk and feeder roads in the Upper West, Bono East and Northern regions, with 752 km of rehabilitation completed by December 2023 and the maintenance phase underway.[^43]
 
 What is missing is a target. Section 36 says "prioritise" and defines no coverage percentage, no timetable, and no consequence for non-adoption. Section 54 empowers the Minister to make Regulations providing for criteria and indicators for performance-based allocations. The instrument exists.
 
@@ -338,7 +338,7 @@ Roughly half of need met in 2003. Roughly half met in 2024. Two decades, two sta
 
 [^3]: "44% of Ghana's validated roads in good condition as 2025 ends – Roads Minister," Adom Online, 28 January 2026. https://www.adomonline.com/44-of-ghanas-validated-roads-in-good-condition-as-2025-ends-roads-minister/
 
-[^4]: African Development Bank, *Ghana – Road Infrastructure Project Appraisal Report*, §3.1.2. <https://www.afdb.org/fileadmin/uploads/afdb/Documents/Project-and-Operations/Ghana_-_Road_Infrastructure_Project_-_Appraisal_Report.pdf>
+[^4]: African Development Fund, *Republic of Ghana: Road Infrastructure Project (Eastern and Western Regions) — Appraisal Report*, June 2003, §3.1.2, which states the programmes aim at "a network condition mix established at around 70% good, 20% fair and no more than 10% poor." The same report projects the objective being missed, forecasting 59% good / 27% fair / 14% poor by 2005. No more recent Ghanaian policy document restating the 70/20/10 objective could be located. <https://www.afdb.org/fileadmin/uploads/afdb/Documents/Project-and-Operations/Ghana_-_Road_Infrastructure_Project_-_Appraisal_Report.pdf>
 
 [^5]: Francis Asenso-Boakye, then Minister for Roads and Highways, quoted in "Govt record in road infrastructure devt unparalleled – Asenso-Boakye," Ghanaian Times, 19 September 2024. https://ghanaiantimes.com.gh/govt-record-in-road-infrastructure-devt-unparalleled-asenso-boakye/ — a national road network inventory was ongoing, with preliminary figures projecting the network would reach 100,000 km on completion; the network stood at 94,203 km at the end of 2023, up from 78,403 km at the end of 2016.
 
@@ -350,7 +350,7 @@ Roughly half of need met in 2003. Roughly half met in 2024. Two decades, two sta
 
 [^9]: Asuogyaman District Assembly, *Composite Budget for 2024–2027: Programme-Based Budget Estimates for 2024*, p. 7 ("Road Network") and p. 13 ("Water Supply"). https://mofep.gov.gh/sites/default/files/composite-budget/2024/ER/Asuogyaman_.pdf
 
-[^10]: Auditor-General, *Performance Audit Report of the Auditor-General on the Funding of the Ghana Road Fund* (Edward Dua Agyeman, Auditor-General), transmitted to the Speaker of Parliament 3 July 2006, Ref. AG.01/109, §1.1 "Reasons for the audit" (para. 1, p. 1) and §2.1 "Historical background" (paras. 16–17, p. 5). The audit attributes the maintenance shortfall to network expansion under the Economic Recovery Programme and records the Fund as established by the Road Fund Act, 1997; it does not address the 1985 legislative instrument. Road Fund Act, 1997 (Act 536). https://ir.parliament.gh/bitstream/handle/123456789/2067/ACT%20536%20Rev%20Ed.pdf
+[^10]: Auditor-General, *Performance Audit Report of the Auditor-General on the Funding of the Ghana Road Fund* (Edward Dua Agyeman, Auditor-General), transmitted to the Speaker of Parliament 3 July 2006, Ref. AG.01/109, §1.1 "Reasons for the audit" (para. 1, p. 1) and §2.1 "Historical background" (paras. 16–17, p. 5). The audit attributes the maintenance shortfall to network expansion under the Economic Recovery Programme and records the Fund as established by the Road Fund Act, 1997; it does not address the 1985 legislative instrument. The report is published at https://audit.gov.gh/files/audit_reports/Performance_Audit_Report_of_the_Auditor-General_on_the_funding_of_Ghana_Road_Fund.pdf Road Fund Act, 1997 (Act 536). https://opencontentghana.wordpress.com/wp-content/uploads/2013/11/road-fund-act-1997-act-536.pdf
 
 [^11]: Act 1147, ss.1, 56(1). Date of assent and *Gazette* notification: 14 August 2025.
 
@@ -362,9 +362,9 @@ Roughly half of need met in 2003. Roughly half met in 2024. Two decades, two sta
 
 [^15]: Energy Sector Levies Act, 2025 (Act 1135), Schedule. See also "Ghana Energy Sector Levies: Current Rates," TaxLawGH, reviewed 24 July 2026. https://www.taxlawgh.com/ghana-energy-sector-levies
 
-[^16]: Energy Sector Levies (Amendment) Bill, 2026, gazetted 31 July 2026. https://regfollower.com/ghana-increases-energy-sector-levies-on-fuel-oils-introduces-road-fund-charge/
+[^16]: Energy Sector Levies (Amendment) Bill, 2026, passed 31 July 2026. https://regfollower.com/ghana-increases-energy-sector-levies-on-fuel-oils-introduces-road-fund-charge/ The Finance Minister's floor remarks of the same date are reported at https://www.gbcghanaonline.com/news/business/parliament-energy-levy/2026/ . Sources place passage on 31 July 2026 but report further floor stages on 2–3 August 2026; no gazette date or Act number has been published, so the date given here is the date of passage, not of gazettal.
 
-[^17]: Ministry of Finance, *Annual Report on the Management of Energy Sector Levies*. https://mofep.gov.gh/sites/default/files/reports/economic/Annual%20Report%20on%20the%20management%20of%20Energy%20sector%20levies.pdf
+[^17]: Ministry of Finance, *Annual Report on the Management of the Energy Sector Levies and Accounts for the Year 2016*. The collection and lodgment mechanism described here is unchanged in later editions. https://mofep.gov.gh/sites/default/files/reports/economic/Annual%20Report%20on%20the%20management%20of%20Energy%20sector%20levies.pdf
 
 [^18]: Energy Sector Levies Act, 2015 (Act 899), First Schedule; ESLA (Amendment) Act, 2019 (Act 997), assented 19 August 2019; Act 1135 (2025), which repealed Acts 899, 946, 997 and 1064 and restated the Road Fund Levy at GHp48 per litre. Sources differ on the pre-2015 rate: contemporary reporting gives GH¢0.07 per litre immediately before Act 899, while the Auditor-General's 2006 performance audit records the fuel levy at ¢600 per litre at the time of the audit in March 2005 (para. 24, p. 7), which converts to GH¢0.06 on redenomination. The same report records increases from ¢150 to ¢230 per litre in 2001 and from ¢230 to ¢400 in 2003 (para. 48, pp. 17–18), so at least one further adjustment occurred between 2003 and 2005. Public sources do not settle the position between redenomination in 2007 and 2015. The distinction does not affect the argument, which turns on the levy's failure to move across nineteen years rather than on its precise starting level.
 
@@ -372,13 +372,13 @@ Roughly half of need met in 2003. Roughly half met in 2024. Two decades, two sta
 
 [^20]: Ministry of Finance, *Annual Report on the Management of the Energy Sector Levies and Accounts for the Year 2019*. https://mofep.gov.gh/sites/default/files/reports/economic/2019_Annual_ELSA_Report.pdf
 
-[^21]: "Ghana: Road Tolls Abolished," allAfrica / Ghanaian Times, 22 November 2021. https://allafrica.com/stories/202111220635.html
+[^21]: "Road tolls abolished," Ghanaian Times, 18 November 2021. https://ghanaiantimes.com.gh/road-tolls-abolished/ Syndicated by allAfrica on 22 November 2021 at https://allafrica.com/stories/202111220635.html, which now blocks automated access.
 
-[^22]: "Road toll reintroduction: Solution or burden?", Graphic Online. https://www.graphic.com.gh/features/opinion/ghana-news-road-toll-reintroduction-solution-or-burden.html
+[^22]: Naa Lamiley Bentil, "Road toll reintroduction: Solution or burden?", Graphic Online, 7 April 2025. https://www.graphic.com.gh/features/opinion/ghana-news-road-toll-reintroduction-solution-or-burden.html
 
 [^23]: "Reintroduction of road and bridge tolls; Parliament approves 20-year Private Partnership," GBC Ghana Online, 2026. https://www.gbcghanaonline.com/news/road-and-bridge-tolls/2026/
 
-[^24]: Ministry of Finance, *Annual Report on the Management of Energy Sector Levies*, 2016 and 2019 editions. 2019 edition: https://mofep.gov.gh/sites/default/files/reports/economic/2019_Annual_ELSA_Report.pdf
+[^24]: Ministry of Finance, *Annual Report on the Management of Energy Sector Levies*, 2016 and 2019 editions. 2016 edition: https://mofep.gov.gh/sites/default/files/reports/economic/Annual%20Report%20on%20the%20management%20of%20Energy%20sector%20levies.pdf ; 2019 edition: https://mofep.gov.gh/sites/default/files/reports/economic/2019_Annual_ELSA_Report.pdf
 
 [^25]: MoRH, *2025 PBB Estimates*, appropriation summary and 2024 expenditure performance tables. The 2024 ministry total of GH¢4,613,561,786 and the Road Fund approved allocation of GH¢1,192,715,344 are listed as separate rows.
 
@@ -392,13 +392,13 @@ Roughly half of need met in 2003. Roughly half met in 2024. Two decades, two sta
 
 [^30]: "Parliament approves GH¢3.6bn for Road Maintenance Trust Fund," Ghanaian Times, August 2026. https://ghanaiantimes.com.gh/parliament-approves-gh%C2%A23-6bn-for-road-maintenance-trust-fund/
 
-[^31]: "Agbodza pushes back on Dodo Pepesu–Nkwanta road cost allegations," News Ghana, March 2026. https://www.newsghana.com.gh/agbodza-pushes-back-on-dodo-pepesu-nkwanta-road-cost-allegations/
+[^31]: "Agbodza pushes back on Dodo Pepesu–Nkwanta road cost allegations," News Ghana, March 2026. The original now blocks automated access; archived copy: https://web.archive.org/web/20260423004739/https://www.newsghana.com.gh/agbodza-pushes-back-on-dodo-pepesu-nkwanta-road-cost-allegations/
 
 [^32]: Ibid., reporting an investigation by The Fourth Estate. Approvals given for these awards could not be established from public sources.
 
-[^33]: "A Deep Dive into the Auditor General's Performance Audit for Roads," Corruption Watch Ghana, April 2020. https://corruptionwatchghana.org/2020/04/02/a-deep-dive-into-the-auditor-generals-performance-audit-for-roads/
+[^33]: "A Deep Dive into the Auditor General's Performance Audit for Roads," Corruption Watch Ghana, April 2020. The original URL now returns a server error; archived copy: https://web.archive.org/web/20210116064243/https://corruptionwatchghana.org/2020/04/02/a-deep-dive-into-the-auditor-generals-performance-audit-for-roads/
 
-[^34]: Ghana Highway Authority, Minister's inspection report, April 2025. https://www.highways.gov.gh/blog_post/43/
+[^34]: Ghana Highway Authority, "Roads Minister, Hon. Kwame Governs Agbodza, announces several road projects to be constructed and rehabilitated under Government's flagship 'Big Push' initiative," 7 April 2025, reporting the Minister's inspection tour of 2–4 April 2025. https://www.highways.gov.gh/blog_post/43/roads-minister-hon-kwame-governs-agbodza-announces-several-road-projects-to-be-constructed-and-rehabilitated-under-governments-flagship-big-push-initiative
 
 [^35]: "Broken roads, broken promises," Graphic Online, 22 May 2025. https://www.graphic.com.gh/features/opinion/ghana-news-broken-roads-broken-promises-how-delayed-payments-to-contractors-undermine-ghanas-progress.html
 
@@ -408,20 +408,20 @@ Roughly half of need met in 2003. Roughly half met in 2024. Two decades, two sta
 
 [^38]: MoRH, *2025 PBB Estimates*, project status listings.
 
-[^39]: Ministry of Finance, *Budget Statement and Economic Policy for 2025*.
+[^39]: Ministry of Finance, *Budget Statement and Economic Policy for 2025*, para. 98, which states that cocoa roads "account for about 66.8 percent of total Cocobod debt." https://mofep.gov.gh/sites/default/files/budget-statements/2025-Budget-Statement-and-Economic-Policy_v5.pdf
 
-[^40]: "Big Push: Here's how much we're paying for every kilometre of road in Ghana," The Fourth Estate, March 2026. https://thefourthestategh.com/2026/03/big-push-heres-how-much-were-paying-for-every-kilometre-of-road/
+[^40]: "Big Push: Here's how much we're paying for every kilometre of road," The Fourth Estate, 27 March 2026, reporting per-kilometre awards from approximately GH¢25m/km (Atimpoku–Asikuma Junction) to approximately GH¢154.4m/km (a dualisation contract). https://thefourthestategh.com/2026/03/big-push-heres-how-much-were-paying-for-every-kilometre-of-road/
 
-[^41]: Adoption of the Committee of the Whole's report, reported in "Parliament approves GH¢3.6bn for Road Maintenance Trust Fund," Ghanaian Times, August 2026 (same source as note 30). The article records the recommendation language but does not name a sector committee. https://ghanaiantimes.com.gh/parliament-approves-gh%C2%A23-6bn-for-road-maintenance-trust-fund/
+[^41]: Adoption of the Committee of the Whole's report, reported in "Parliament approves GH¢3.6bn for Road Maintenance Trust Fund," Ghanaian Times, August 2026 (same source as note 30). The article names the Committee of the Whole as the adopting body, but does not identify which sector committee, if any, originated the report. https://ghanaiantimes.com.gh/parliament-approves-gh%C2%A23-6bn-for-road-maintenance-trust-fund/
 
-[^42]: "GRA confirms July 16 start date for revised energy sector levies," Graphic Online, 2 July 2025. https://www.graphic.com.gh/news/general-news/gra-confirms-july-16-start-date-for-revised-energy-sector-levies.html ; Energy Sector Levies (Amendment) Act, 2025 (Act 1141).
+[^42]: "GRA confirms July 16 start date for revised energy sector levies," Graphic Online, 2 July 2025. https://www.graphic.com.gh/news/general-news/gra-confirms-july-16-start-date-for-revised-energy-sector-levies.html ; Energy Sector Levies (Amendment) Act, 2025 (Act 1141). That article establishes the rate change, its effective date and the product-by-product treatment only. On passage under a certificate of urgency on 3 June 2025: "Parliament passes new energy sector levy under certificate of urgency," Ghana News Agency, 4 June 2025. https://gna.org.gh/2025/06/parliament-passes-new-energy-sector-levy-under-certificate-of-urgency/ On transport-operator opposition: "GPRTU threatens nationwide strike over GHC1 fuel levy," Citi Newsroom, June 2025. https://citinewsroom.com/2025/06/gprtu-threatens-nationwide-strike-over-ghc1-fuel-levy/ — the union withdrew its objection the following month. On the GH¢8.81bn first-year yield: annual report on the levy presented to Parliament on 23 June 2026 by the Minister for Finance, reported at https://www.modernghana.com/news/1505014/energy-levy-generated-gh881billion-in-2025gov.html
 
 [^43]: World Bank, *Implementation Status & Results Report*, Transport Sector Improvement Project, February 2024. https://documents1.worldbank.org/curated/en/099021124080510552/pdf/P15102612dbb730921be6c189d0eafc0235.pdf ; MoRH, *2025 PBB Estimates*, Summary of Key Achievements in 2024.
 
-[^44]: Auditor-General, *Performance Audit Report of the Auditor-General on the Funding of the Ghana Road Fund* (Edward Dua Agyeman, Auditor-General), transmitted to the Speaker of Parliament 3 July 2006, Ref. AG.01/109. The ninth performance audit report issued under article 187(5) of the 1992 Constitution and section 13(e) of the Audit Service Act, 2000 (Act 584); the audit covers 2000–2004, with fieldwork to March 2005. Printed by The Advent Press, Accra. No online copy could be located; page and paragraph references are to the printed report. Annex figures in this section are drawn from that report as follows: the statement of the mechanism, §3.1, para. 39 (p. 14); the 2000–2004 revenue and maintenance-expenditure summary and the observation on controlled budgeting, Table 1 and paras. 40–41 (pp. 14–15); the October 2003 coverage statement by the Director of the Road Fund, para. 37 (p. 13); the per-billion-cedi output series, paras. 42–46 with Figures 3 and 4 (pp. 15–16) and Appendix A; the conclusion on over-dependence on the fuel levy, para. 81 (p. 28); the tolling proposals of April 2001 and November 2003 and the Ministry's legal section confirming them ready but on hold, paras. 63–68 (pp. 22–24) and para. 92 (p. 33); and the exclusion of road maintenance from the audit's scope, para. 7 (p. 3). One internal discrepancy: Table 1 gives the five-year deficit as ¢127.82bn while the accompanying text at para. 41 gives ¢127.87bn. This memo uses the table figure.
+[^44]: Auditor-General, *Performance Audit Report of the Auditor-General on the Funding of the Ghana Road Fund* (Edward Dua Agyeman, Auditor-General), transmitted to the Speaker of Parliament 3 July 2006, Ref. AG.01/109. The ninth performance audit report issued under article 187(5) of the 1992 Constitution and section 13(e) of the Audit Service Act, 2000 (Act 584); the audit covers 2000–2004, with fieldwork to March 2005. Printed by The Advent Press. Published by the Ghana Audit Service at https://audit.gov.gh/files/audit_reports/Performance_Audit_Report_of_the_Auditor-General_on_the_funding_of_Ghana_Road_Fund.pdf ; page and paragraph references are to the report's own printed numbering. Annex figures in this section are drawn from that report as follows: the statement of the mechanism, §3.1, para. 40 (p. 14); the 2000–2004 revenue and maintenance-expenditure summary and the observation on controlled budgeting, Table 1 and paras. 40–41 (pp. 14–15); the October 2003 coverage statement by the Director of the Road Fund, para. 37 (p. 13); the per-billion-cedi output series, paras. 42–46 with Figures 3 and 4 (pp. 15–16) and Appendix A; the conclusion on over-dependence on the fuel levy, para. 81 (p. 28); the tolling proposals of April 2001 and November 2003 and the Ministry's legal section confirming them ready but on hold, paras. 63–68 (pp. 22–24), restated as a recommendation at para. 92 (p. 33); and the exclusion of road maintenance from the audit's scope, para. 7 (p. 3). One internal discrepancy: Table 1 gives the five-year deficit as ¢127.82bn while the accompanying text at para. 41 gives ¢127.87bn. This memo uses the table figure.
 
-[^45]: World Bank Report No. 24248. https://documents1.worldbank.org/curated/en/557961468249626582/pdf/multi0page.pdf
+[^45]: World Bank, *Implementation Completion Report on a Credit to the Republic of Ghana for a Highway Sector Investment Program* (Credit IDA-28580), Report No. 24248, 21 June 2002. https://documents1.worldbank.org/curated/en/557961468249626582/pdf/multi0page.pdf
 
-[^46]: World Bank Report No. 18413. https://documents1.worldbank.org/curated/en/572901468251418215/pdf/multi-page.pdf
+[^46]: World Bank, *Implementation Completion Report, Republic of Ghana: Second Transport Rehabilitation Project* (Credit 2192-GH), Report No. 18413, 18 September 1998. https://documents1.worldbank.org/curated/en/572901468251418215/pdf/multi-page.pdf
 
 [^47]: Kwasi Amoako-Attah, then Minister for Roads and Highways, quoted in "We'll build better, safer roads in Ghana," Ministry of Roads and Highways. https://mrh.gov.gh/well-build-better-safer-roads-in-ghana-roads-minister/ — total network 94,203 km, 27% paved, 73% unpaved.

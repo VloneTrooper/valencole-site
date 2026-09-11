@@ -78,8 +78,8 @@ word, which silently breaks copy-paste and résumé parsers.
    `python src/count_sources.py src/ghana-roads-memo.md` recomputes the source count —
    it maps every endnote to the work it cites, because an endnote is not a source: some
    are Ibid., some re-cite a work already cited, and some cite two or three works at
-   once. Currently **47 endnotes, 50 in-text references, 34 distinct works** (6 statutes,
-   13 government/institutional documents, 15 press). Update the mapping in that script
+   once. Currently **47 endnotes, 50 in-text references, 38 distinct works** (6 statutes,
+   13 government/institutional documents, 19 press). Update the mapping in that script
    when you add a note.
 
 ## Before every push

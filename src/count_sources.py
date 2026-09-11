@@ -27,7 +27,7 @@ NOTE_TO_WORKS = {
     13: ['graphic_boardinaug'],
     14: ['act1147'],
     15: ['act1135', 'taxlawgh'],
-    16: ['esl_amend_bill2026'],
+    16: ['esl_amend_bill2026', 'gbc_energylevy'],
     17: ['mof_esl_report'],
     18: ['act899', 'act997', 'act1135', 'ag2006'],  # + AG 2006 on the pre-2015 rate
     19: ['wb_wdi', 'gss'],
@@ -53,7 +53,7 @@ NOTE_TO_WORKS = {
     39: ['mof_budget2025'],
     40: ['fourthestate_bigpush'],
     41: ['gt_parliament36bn'],                 # "same source as note 30"
-    42: ['graphic_gra_july16', 'act1141'],
+    42: ['graphic_gra_july16', 'act1141', 'gna_certurgency', 'citi_gprtu', 'mg_esla2025'],  # + sources for urgency, opposition, GH¢8.81bn
     43: ['wb_isr_tsip', 'morh_pbb2025'],
     44: ['ag2006'],
     45: ['wb_24248'],
@@ -75,6 +75,8 @@ KIND = {
     'newsghana_agbodza': 'press', 'corruptionwatch': 'press',
     'graphic_brokenroads': 'press', 'myjoy_231bn': 'press',
     'fourthestate_bigpush': 'press', 'graphic_gra_july16': 'press',
+    'gbc_energylevy': 'press', 'gna_certurgency': 'press', 'citi_gprtu': 'press',
+    'mg_esla2025': 'press',
 }
 
 src = MD.read_text(encoding='utf-8')
