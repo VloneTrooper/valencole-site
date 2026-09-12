@@ -26,7 +26,7 @@ Four qualifications, stated here so the rest of the memo can rely on them.
 
 **The network figure is stale.** In September 2024 the then-Minister stated that a national road network inventory and condition survey was underway and that preliminary figures projected the network at roughly 100,000 km on completion, naming several completed corridors not yet captured in the data.[^5] The 2025 estimates still carry 94,203 km, unchanged across all six forecast years; the same figure appears in the 2023 MTEF, and the then-Minister described it in September 2024 as the position at the end of 2023.[^5] At least two incompatible condition series circulate against that same denominator.[^6]
 
-**The methodology is not public.** Act 1147 makes the Road Condition Index the first factor in the allocation formula and defines it as a composite measure determined by operational guidelines issued under the Act — so the measurement standard sits outside the statute.[^7] The Act also makes it an offence to manipulate or fabricate road condition survey results, carrying the same penalty band as misappropriating money from the Fund.[^8] That is not evidence of falsification. It indicates the drafters regarded the survey as a control point rather than a neutral input.
+**The methodology is not public.** Act 1147 makes the Road Condition Index the first factor in the allocation formula and defines it as a composite measure determined by operational guidelines issued under the Act — so the measurement standard sits outside the statute.[^7] The Act also makes it an offense to manipulate or fabricate road condition survey results, carrying the same penalty band as misappropriating money from the Fund.[^8] That is not evidence of falsification. It indicates the drafters regarded the survey as a control point rather than a neutral input.
 
 None of this weakens the argument below, because the argument turns on the *ratio* between measured condition and preservation spending, which survives considerable error in either figure.
 
@@ -36,7 +36,7 @@ Two observations from travel in Ghana in June 2026.
 
 The journey from Kpong to Elmina — approximately 245 km, taking a northern route via Akropong, Aburi and Nsawam specifically to avoid construction-related congestion on the direct corridor — took over nine hours on roads that avoided metropolitan traffic almost entirely. Traffic routinely crossed into oncoming lanes to pass ditches and potholes that could not be driven through.
 
-Separately, reaching communities in Asuogyaman District, Eastern Region — where the Volta Lake divides the district in two, and where the district assembly's own budget records that poor road conditions negatively affect business generally and the transport of agricultural produce in particular[^9] — took two hours from Kpong to cover under twenty kilometres of separation. The health outreach I was traveling with existed on the premise that this difficulty deterred people from seeking treatment. The clinic at Kpong was the most capable facility we saw; the outposts further out held little beyond basic supplies. Excursions were ended at the first rain, because the return could not be relied on afterwards.
+Separately, reaching communities in Asuogyaman District, Eastern Region — where the Volta Lake divides the district in two, and where the district assembly's own budget records that poor road conditions negatively affect business generally and the transport of agricultural produce in particular[^9] — took two hours from Kpong to cover under twenty kilometers of separation. The health outreach I was traveling with existed on the premise that this difficulty deterred people from seeking treatment. The clinic at Kpong was the most capable facility we saw; the outposts further out held little beyond basic supplies. Excursions were ended at the first rain, because the return could not be relied on afterwards.
 
 Asuogyaman records roughly 185.9 km of district road network, of which 130.2 km is tarred and 55.7 km untarred.[^9] At 30% untarred it is better provisioned than the national average of 73%.[^47]
 
@@ -48,7 +48,7 @@ Asuogyaman records roughly 185.9 km of district road network, of which 130.2 km 
 
 Network expansion under the Economic Recovery Programme of the 1980s put maintenance and rehabilitation costs beyond the reach of the Ministry's annual budgetary provisions. The Road Fund was established by legislative instrument in 1985 and restructured under the **Road Fund Act, 1997 (Act 536)** specifically to address that gap and to end reliance on budgetary allocation for maintenance.[^10]
 
-In August 2025 the **Road Maintenance Trust Fund Act, 2025 (Act 1147)** repealed Act 536 outright and established the Road Maintenance Trust Fund as a body corporate.[^11] The stated rationale was governance. The Act introduced offences for misappropriation, a formula-based allocation system, mandatory technical audits, and a fifteen-member Board of Trustees inaugurated in December 2025.
+In August 2025 the **Road Maintenance Trust Fund Act, 2025 (Act 1147)** repealed Act 536 outright and established the Road Maintenance Trust Fund as a body corporate.[^11] The stated rationale was governance. The Act introduced offenses for misappropriation, a formula-based allocation system, mandatory technical audits, and a fifteen-member Board of Trustees inaugurated in December 2025.
 
 The reform is real. It is also aimed at a different constraint from the one that binds.
 
@@ -62,13 +62,13 @@ A contractor therefore holds an enforceable contractual claim against the implem
 
 ### 2.2 The revenue base
 
-The Fund is financed principally by a levy on petroleum products, supplemented by tolls, vehicle registration and inspection fees, transit fees from foreign carriers, and axle-load penalties.[^14] The **Road Fund Levy is GH¢0.48 per litre** on petrol, diesel, marine gas oil and naphtha, set as a specific amount in the Schedule to Act 1135.[^15] In July 2026 Parliament extended the levy to fuel oil.[^16]
+The Fund is financed principally by a levy on petroleum products, supplemented by tolls, vehicle registration and inspection fees, transit fees from foreign carriers, and axle-load penalties.[^14] The **Road Fund Levy is GH¢0.48 per liter** on petrol, diesel, marine gas oil and naphtha, set as a specific amount in the Schedule to Act 1135.[^15] In July 2026 Parliament extended the levy to fuel oil.[^16]
 
 Collection runs from the pump through oil marketing companies to the Ghana Revenue Authority, which lodges receipts into dedicated accounts at the Bank of Ghana.[^17] Two structural features matter.
 
-**The rate is specific, not ad valorem.** It is a fixed amount per litre rather than a percentage of pump price, so its real value erodes with inflation between legislative amendments and its revenue grows only with fuel volume.
+**The rate is specific, not ad valorem.** It is a fixed amount per liter rather than a percentage of pump price, so its real value erodes with inflation between legislative amendments and its revenue grows only with fuel volume.
 
-**It has no mechanism for adjusting itself.** The levy stood at roughly GH¢0.06–0.07 per litre from redenomination in 2007 until 2015; moved to GH¢0.40 when the Energy Sector Levies Act, 2015 (Act 899) consolidated it into the ESLA framework; and moved to GH¢0.48 under the ESLA (Amendment) Act, 2019 (Act 997), assented 19 August 2019.[^18] It has moved twice in nineteen years, on both occasions as part of a wider legislative exercise rather than as a scheduled adjustment. Ghana's consumer price index stood at 278.45 in 2019 and 855.78 in 2025.[^19]
+**It has no mechanism for adjusting itself.** The levy stood at roughly GH¢0.06–0.07 per liter from redenomination in 2007 until 2015; moved to GH¢0.40 when the Energy Sector Levies Act, 2015 (Act 899) consolidated it into the ESLA framework; and moved to GH¢0.48 under the ESLA (Amendment) Act, 2019 (Act 997), assented 19 August 2019.[^18] It has moved twice in nineteen years, on both occasions as part of a wider legislative exercise rather than as a scheduled adjustment. Ghana's consumer price index stood at 278.45 in 2019 and 855.78 in 2025.[^19]
 
 The Ministry of Finance identified the mechanism itself. Its 2019 report on energy sector levies records the Road Fund Levy being increased that year to correct for the loss in value resulting from consumer price inflation without commensurate increases in the fixed specific-type levies.[^20] It acted once and has not acted since.
 
@@ -94,7 +94,7 @@ Road spending flows through two parallel channels, not one. The Ministry's appro
 
 At programme level, maintenance appears close to parity with construction. Disaggregated, **91% of the maintenance programme is minor rehabilitation** — culverts, drainage structures and minor upgrading on roads that have already deteriorated. Act 1147 defines rehabilitation as restoring a road that has deteriorated through age, wear or damage, expressly excluding routine and periodic maintenance.[^26] It is corrective work, not preservation.
 
-**Genuine preventive maintenance — routine plus periodic — is GH¢122,771,834, or 3.78% of the appropriation.** Spread across 94,203 km, that is approximately **GH¢1,303 per kilometre per year**.
+**Genuine preventive maintenance — routine plus periodic — is GH¢122,771,834, or 3.78% of the appropriation.** Spread across 94,203 km, that is approximately **GH¢1,303 per kilometer per year**.
 
 The three categories sit on a deterioration timeline. Routine maintenance is continuous and preventive, aimed at preserving current condition — pothole patching, grading, vegetation control, drain clearing. Periodic maintenance is planned and cyclical, restoring a road to near-original condition before failure — surface dressing, resealing, regravelling. Rehabilitation is what is required once the first two have been skipped. Ghana's allocation is concentrated at the most expensive end of that sequence.
 
@@ -173,7 +173,7 @@ Treating 45% as an approximation of overall coverage, full funding of routine an
 
 **The asymmetry is the point.** The incremental annual cost of fully funding preventive maintenance across Ghana's entire 94,203 km network is smaller than the cost of a single Big Push corridor lot.
 
-**The backlog is not costed here, deliberately.** Rehabilitating roughly 19,800 km of poor-condition road is a separate and far larger problem, and per-kilometre costs in the current market vary roughly six-fold with scope — reported Big Push awards range from about GH¢25m/km to about GH¢154m/km.[^40] No credible aggregate can be produced from that spread without a scope-matched unit cost, which is not publicly available. The point stands regardless: the backlog exists because the recurrent gap was never closed, and closing the recurrent gap is cheap relative to the cost of continuing to rebuild.
+**The backlog is not costed here, deliberately.** Rehabilitating roughly 19,800 km of poor-condition road is a separate and far larger problem, and per-kilometer costs in the current market vary roughly six-fold with scope — reported Big Push awards range from about GH¢25m/km to about GH¢154m/km.[^40] No credible aggregate can be produced from that spread without a scope-matched unit cost, which is not publicly available. The point stands regardless: the backlog exists because the recurrent gap was never closed, and closing the recurrent gap is cheap relative to the cost of continuing to rebuild.
 
 ---
 
@@ -218,11 +218,11 @@ The effect is visible in the current allocation. GH¢2.8bn of GH¢3.1bn revenue 
 
 ### 4.3 Index the fuel levy
 
-Convert the Road Fund Levy to an indexed specific rate, adjusted annually to the Ghana Statistical Service consumer price index. The charge remains a fixed amount per litre; only the adjustment becomes automatic rather than discretionary.
+Convert the Road Fund Levy to an indexed specific rate, adjusted annually to the Ghana Statistical Service consumer price index. The charge remains a fixed amount per liter; only the adjustment becomes automatic rather than discretionary.
 
 The levy has stood at GH¢0.48 since August 2019. Ghana's consumer price index stood at 278.45 that year and 855.78 in 2025. The rate has not moved, and on the historical pattern it moves only when swept into a wider legislative exercise — twice in nineteen years.
 
-The means to change it exist. The Energy Sector Shortfall and Debt Repayment Levy, charged on the same litre of fuel, rose from GH¢0.95 to GH¢1.95 on petrol with effect from 16 July 2025 under a certificate of urgency, over organised transport-operator opposition, raising GH¢8.81bn in its first year.[^42] Rates were set product by product — LPG and naphtha were left unchanged. In July 2026 Parliament amended the same Schedule again, extended the Road Fund Levy to fuel oil, and left its rate untouched: it edited that row for coverage while declining to touch its value.
+The means to change it exist. The Energy Sector Shortfall and Debt Repayment Levy, charged on the same liter of fuel, rose from GH¢0.95 to GH¢1.95 on petrol with effect from 16 July 2025 under a certificate of urgency, over organized transport-operator opposition, raising GH¢8.81bn in its first year.[^42] Rates were set product by product — LPG and naphtha were left unchanged. In July 2026 Parliament amended the same Schedule again, extended the Road Fund Levy to fuel oil, and left its rate untouched: it edited that row for coverage while declining to touch its value.
 
 This is the only recommendation here that is politically contested. It is also a precondition for the others. At GH¢0.48 unindexed, Ghana can clear the arrears or fund preservation on a credible timetable, not both.
 
@@ -286,7 +286,7 @@ The fix is not a third institution. It is a published schedule, one clause, an i
 
 **One figure is a proxy.** The GH¢1.19bn Road Fund allocation is the 2024 approved figure; the 2025 Road Fund ceiling does not appear in the Ministry's estimates.
 
-**The recurrent gap crosses two channels.** The GH¢150m estimate in section 3 combines a per-kilometre figure derived from the Ministry's appropriation with a coverage indicator that measures the Road Fund. Published reporting does not consolidate the two, so the estimate is directional rather than computed.
+**The recurrent gap crosses two channels.** The GH¢150m estimate in section 3 combines a per-kilometer figure derived from the Ministry's appropriation with a coverage indicator that measures the Road Fund. Published reporting does not consolidate the two, so the estimate is directional rather than computed.
 
 **The composition of the RMTF's allocation is not public.** The Fund's compliance with the section 31(1) floor is verifiable; the division of that allocation between preservation and rehabilitation is not.
 
@@ -316,7 +316,7 @@ The Road Fund was created in response to the same dynamic this memo describes. T
 
 Roughly half of need met in 2003. Roughly half met in 2024. Two decades, two statutes.
 
-**Real erosion, measured in output.** Kilometres achieved per billion cedis fell across 2000–2003 for nearly every agency. The audit's conclusion: contract costs increased at a faster rate than revenue collection, with the ultimate effect a sizeable backlog of poorly maintained roads.
+**Real erosion, measured in output.** Kilometers achieved per billion cedis fell across 2000–2003 for nearly every agency. The audit's conclusion: contract costs increased at a faster rate than revenue collection, with the ultimate effect a sizeable backlog of poorly maintained roads.
 
 **The warning.** The audit concluded that the fuel levy, the dominant contributor, is not fixed by the Road Fund Board, and that because levies affect petroleum prices their effect on the national economy is weighed before any decision — reinforcing that over-dependence on the fuel levy would not be sustainable in the long run.
 
@@ -366,7 +366,7 @@ Roughly half of need met in 2003. Roughly half met in 2024. Two decades, two sta
 
 [^17]: Ministry of Finance, *Annual Report on the Management of the Energy Sector Levies and Accounts for the Year 2016*. The collection and lodgment mechanism described here is unchanged in later editions. https://mofep.gov.gh/sites/default/files/reports/economic/Annual%20Report%20on%20the%20management%20of%20Energy%20sector%20levies.pdf
 
-[^18]: Energy Sector Levies Act, 2015 (Act 899), First Schedule; ESLA (Amendment) Act, 2019 (Act 997), assented 19 August 2019; Act 1135 (2025), which repealed Acts 899, 946, 997 and 1064 and restated the Road Fund Levy at GHp48 per litre. Sources differ on the pre-2015 rate: contemporary reporting gives GH¢0.07 per litre immediately before Act 899, while the Auditor-General's 2006 performance audit records the fuel levy at ¢600 per litre at the time of the audit in March 2005 (para. 24, p. 7), which converts to GH¢0.06 on redenomination. The same report records increases from ¢150 to ¢230 per litre in 2001 and from ¢230 to ¢400 in 2003 (para. 48, pp. 17–18), so at least one further adjustment occurred between 2003 and 2005. Public sources do not settle the position between redenomination in 2007 and 2015. The distinction does not affect the argument, which turns on the levy's failure to move across nineteen years rather than on its precise starting level.
+[^18]: Energy Sector Levies Act, 2015 (Act 899), First Schedule; ESLA (Amendment) Act, 2019 (Act 997), assented 19 August 2019; Act 1135 (2025), which repealed Acts 899, 946, 997 and 1064 and restated the Road Fund Levy at GHp48 per liter. Sources differ on the pre-2015 rate: contemporary reporting gives GH¢0.07 per liter immediately before Act 899, while the Auditor-General's 2006 performance audit records the fuel levy at ¢600 per liter at the time of the audit in March 2005 (para. 24, p. 7), which converts to GH¢0.06 on redenomination. The same report records increases from ¢150 to ¢230 per liter in 2001 and from ¢230 to ¢400 in 2003 (para. 48, pp. 17–18), so at least one further adjustment occurred between 2003 and 2005. Public sources do not settle the position between redenomination in 2007 and 2015. The distinction does not affect the argument, which turns on the levy's failure to move across nineteen years rather than on its precise starting level.
 
 [^19]: World Bank, World Development Indicators, indicator FP.CPI.TOTL, "Consumer price index (2010 = 100)," Ghana: 278.45 (2019) and 855.78 (2025). Annual-average series, not period-end. Ghana Statistical Service reports annual average inflation of 14.6% for 2025 and 22.9% for 2024, consistent with the World Bank series; the December 2025 year-on-year point rate was 5.4%. GSS's own domestic series was rebased to 2021=100 and reports a materially lower index level; it tracks the same inflation on a different base and is not directly comparable to the 2010=100 figures used here.
 
@@ -410,7 +410,7 @@ Roughly half of need met in 2003. Roughly half met in 2024. Two decades, two sta
 
 [^39]: Ministry of Finance, *Budget Statement and Economic Policy for 2025*, para. 98, which states that cocoa roads "account for about 66.8 percent of total Cocobod debt." https://mofep.gov.gh/sites/default/files/budget-statements/2025-Budget-Statement-and-Economic-Policy_v5.pdf
 
-[^40]: "Big Push: Here's how much we're paying for every kilometre of road," The Fourth Estate, 27 March 2026, reporting per-kilometre awards from approximately GH¢25m/km (Atimpoku–Asikuma Junction) to approximately GH¢154.4m/km (a dualisation contract). https://thefourthestategh.com/2026/03/big-push-heres-how-much-were-paying-for-every-kilometre-of-road/
+[^40]: "Big Push: Here's how much we're paying for every kilometre of road," The Fourth Estate, 27 March 2026, reporting per-kilometer awards from approximately GH¢25m/km (Atimpoku–Asikuma Junction) to approximately GH¢154.4m/km (a dualisation contract). https://thefourthestategh.com/2026/03/big-push-heres-how-much-were-paying-for-every-kilometre-of-road/
 
 [^41]: Adoption of the Committee of the Whole's report, reported in "Parliament approves GH¢3.6bn for Road Maintenance Trust Fund," Ghanaian Times, August 2026 (same source as note 30). The article names the Committee of the Whole as the adopting body, but does not identify which sector committee, if any, originated the report. https://ghanaiantimes.com.gh/parliament-approves-gh%C2%A23-6bn-for-road-maintenance-trust-fund/
 
