@@ -46,7 +46,10 @@ def text_of_pdf(p: Path) -> str:
 FACTS = [
     ("condition figure",      "19,800",                          ["20,725", "22% poor share"], "OAP"),
     ("committee attribution", "Committee of the Whole",          ["Roads and Transportation Committee", "Finance Committee"], "AP"),
-    ("conclusion scope",      "one instrument whose compliance", ["in 2025 and 2026, each was"], "AP"),
+    ("conclusion scope",      "one instrument with a number attached", ["in 2025 and 2026, each was", "met to the decimal"], "AP"),
+    ("gap estimate withdrawn", "withdrawn",                       ["order-of-magnitude estimate", "GH¢150m annually"], "OAP"),
+    ("audit percentages",     "GH¢170.5m",                       ["23% and 11% of the project's cost"], "AP"),
+    ("programme scope",       "major rehabilitation, reconstruction and upgrading", ["new construction and bridge works"], "OAP"),
     ("90% split unpublished", "not published",                   ["In 2026 it did"], "OAP"),
     ("levy CPI figures",      "278.45",                          ["roughly tripled"], "OAP"),
     ("cross-channel caveat",  "does not consolidate",            [], "OAP"),
