@@ -3,3 +3,6 @@ Thumbs.db
 node_modules/
 .netlify/
 *.log
+
+# Library PDFs used for the memo revision; not for publication
+writing/5 New Sources/
