@@ -15,7 +15,9 @@ Netlify publishes the repo root as-is.
 
 ```
 index.html                     Root — Valen Cole, indexes everything below
-assets/site.css                Shared shell: tokens, top bar, entry lists, prose
+assets/site.css                Shared shell: light/dark tokens, nav, home bento, entry lists, prose
+assets/mode.js                 Light/dark toggle button (pair with the inline <head> script)
+valen-cole-resume.pdf          Resume, linked as "Resume" in every nav
 assets/aviva/*.jpg             Aviva Manual screenshots
 favicon.svg
 
@@ -84,6 +86,9 @@ word, which silently breaks copy-paste and résumé parsers.
 
 ## Before every push
 
+1. Set the homepage's "Updated <date>" line (`index.html`, `.updated`) to the push date.
+2. Run the audit:
+
 ```
 python src/check-site.py
 ```
@@ -99,7 +104,9 @@ pre-commit hook if you want one.
 
 ### Rules for adding pages
 
-1. Everything gets the shared top bar and links back to `/`.
+1. Shell pages get the shared nav and link back to `/`. Copy the `<head>` mode script,
+   the nav (with its `.mode` button) and `<script src="/assets/mode.js">` from
+   `writing/index.html`; without the head script the page flashes the wrong mode.
 2. URL scheme: section index at the folder, items nested under it.
 3. Consistent `<title>` (`Thing — Valen Cole`) and `og:` tags.
 4. Interiors may look however they need to — a game looks like a game, a memo like a
@@ -109,20 +116,20 @@ pre-commit hook if you want one.
 
 ## Design tokens
 
-Defined in `assets/site.css`. The Ghana pages and the demo carry their own palettes.
+Defined in `assets/site.css`, with a light and a dark value for each, switched by
+`<html data-mode="light|dark">`. The visitor's choice is saved under localStorage
+`vc-mode`; until they click the toggle, the site follows their system setting.
+The Ghana pages, `/ops/` and the demo carry their own palettes and have no dark mode.
 
-| Token | Value | Use |
-|---|---|---|
-| `--bg` | `#fafaf7` | page background |
-| `--bg-card` | `#ffffff` | cards |
-| `--text` | `#1c1c1a` | body text |
-| `--text-sub` | `#4d4b46` | secondary text |
-| `--text-muted` | `#8c8880` | captions, meta |
-| `--accent` | `#2c5f41` | forest green — links, emphasis |
-| `--warm` | `#b5694d` | terracotta — sparing accent |
-| `--serif` | Source Serif 4 | headings, display |
-| `--sans` | Outfit | body, UI |
-| `--mono` | JetBrains Mono | eyebrows, labels, captions |
+| Token | Light | Dark | Use |
+|---|---|---|---|
+| `--paper` | `#f4f3ee` | `#0b0b0c` | page background |
+| `--ink` | `#0c0c0d` | `#f2f2ec` | text, card borders |
+| `--muted` | `#5d5d58` | `#9a9a93` | labels, meta |
+| `--lime` / `--hl` | `#c6ff00` | `#c6ff00` | link fill, left-edge bar, New York card |
+| `--pink` | `#ff2f8e` | `#ff3d9a` | top-right bar, route marks |
+| `--sans` | Archivo (variable width) | | name, headings, body |
+| `--mono` | JetBrains Mono | | nav, labels, tags |
 
 ## Gotchas
 
@@ -135,7 +142,7 @@ Defined in `assets/site.css`. The Ghana pages and the demo carry their own palet
 
 ## Third-party
 
-- Fonts: Google Fonts (Source Serif 4, Outfit, JetBrains Mono; Overpass on the Ghana
-  pages; Poppins on the demo)
+- Fonts: Google Fonts (Archivo, JetBrains Mono on the shell; Overpass and Source Serif 4
+  on the Ghana pages; Source Serif 4 and Outfit on /ops/; Poppins on the demo)
 - three.js r128 via cdnjs — the demo only
 - Formspree (`f/mpqodngj`) — the `/ops/` contact form only
